@@ -1,6 +1,9 @@
 import type { CSSProperties } from "react";
 import { withBase } from "@/lib/basePath";
 
+/** 480 px хватает на 148 px высоты при DPR 3; предзагружается в RootShell (маску браузер находит поздно). */
+export const WORDMARK_SRC = "/brand/logo-480.webp";
+
 /**
  * Вордмарк «pan / pan» — их настоящий знак, вырезанный маской из снимка вывески в зале
  * (буквы светлые на шоколадной стене → альфа по яркости, `_photos/logo-white.png`).
@@ -19,7 +22,7 @@ export function Wordmark({
   markClassName?: string;
   label?: string;
 }) {
-  const style = { height, "--wordmark": `url("${withBase("/brand/logo-960.webp")}")` } as CSSProperties;
+  const style = { height, "--wordmark": `url("${withBase(WORDMARK_SRC)}")` } as CSSProperties;
   return (
     <span className={`inline-flex ${className}`}>
       <span aria-hidden="true" className={`wordmark-mask ${markClassName}`} style={style} />

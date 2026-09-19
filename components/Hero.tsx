@@ -86,7 +86,7 @@ export function Hero({ locale }: { locale: Locale }) {
             <Img
               photo={photos.hero}
               locale={locale}
-              sizes="(min-width: 1280px) 620px, (min-width: 1024px) 48vw, 92vw"
+              sizes="(min-width: 1280px) 620px, (min-width: 1024px) 48vw, (min-width: 600px) 544px, 92vw"
               priority
               className="h-full w-full object-cover"
             />

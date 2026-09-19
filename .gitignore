@@ -56,3 +56,12 @@ next-env.d.ts
 /_data/web/*.html
 /_data/serve/
 /_data/preview/
+# Сырые выгрузки Google с полными именами авторов отзывов и ответами (DESIGN.md §1) — только локально;
+# в репозитории — обезличенная копия _data/maps/reviews-public.json (`_data/scripts/sanitize-reviews.mjs`).
+/_data/maps/reviews-*.json
+!/_data/maps/reviews-public.json
+/_data/maps/reviews-all.json
+/_data/maps/search-reviews-*.json
+/_data/maps/*.txt
+/_data/maps/*.log
+/_data/menu-text/review-EN.json.bak

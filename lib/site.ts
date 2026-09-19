@@ -41,7 +41,7 @@ export function buildMetadata(locale: Locale): Metadata {
       title: dict.meta.title,
       description: dict.meta.description,
       url: path,
-      images: [{ url: "/og.jpg", width: 1200, height: 630, alt: og.alt[locale] }],
+      images: [{ url: locale === "en" ? "/og-en.jpg" : "/og.jpg", width: 1200, height: 630, alt: og.alt[locale] }],
     },
     twitter: {
       card: "summary_large_image",

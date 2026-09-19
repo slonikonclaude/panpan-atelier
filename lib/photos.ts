@@ -97,6 +97,8 @@ export type PhotoKey = keyof typeof photos;
 export function srcFor(photo: Photo) {
   const small = withBase(`/photos/${photo.name}-800.webp`);
   if (photo.width <= 800) return { src: small, srcSet: `${small} ${photo.width}w` };
+  const mid = withBase(`/photos/${photo.name}-1200.webp`);
+  if (photo.width <= 1200) return { src: mid, srcSet: `${small} 800w, ${mid} ${photo.width}w` };
   const large = withBase(`/photos/${photo.name}-1600.webp`);
-  return { src: large, srcSet: `${small} 800w, ${large} ${Math.min(1600, photo.width)}w` };
+  return { src: large, srcSet: `${small} 800w, ${mid} 1200w, ${large} ${Math.min(1600, photo.width)}w` };
 }

@@ -1,5 +1,9 @@
 import { DM_Serif_Display, Nunito_Sans } from "next/font/google";
 import type { ReactNode } from "react";
+import { preload } from "react-dom";
+import { WORDMARK_SRC } from "@/components/Logo";
+import { MotionProvider } from "@/components/MotionProvider";
+import { withBase } from "@/lib/basePath";
 import { getDictionary, type Locale } from "@/lib/dictionaries";
 
 /**
@@ -26,6 +30,8 @@ const sans = Nunito_Sans({
 
 export function RootShell({ locale, children }: { locale: Locale; children: ReactNode }) {
   const dict = getDictionary(locale);
+  // Знак в шапке и h1 — CSS-маска: без предзагрузки браузер находит файл только после раскладки.
+  preload(withBase(WORDMARK_SRC), { as: "image", fetchPriority: "high", crossOrigin: "anonymous" });
 
   return (
     <html lang={dict.htmlLang} className={`${display.variable} ${sans.variable} h-full`}>
@@ -35,7 +41,9 @@ export function RootShell({ locale, children }: { locale: Locale; children: Reac
           <style>{`[data-reveal]{opacity:1!important;transform:none!important}@layer theme{.menu-panel[hidden]{display:block!important}[role=tablist]{display:none!important}}.menu-panel::before{content:attr(data-title);display:block;margin-bottom:1rem;font-family:var(--font-display);font-size:1.6rem}`}</style>
         </noscript>
       </head>
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-full flex-col">
+        <MotionProvider>{children}</MotionProvider>
+      </body>
     </html>
   );
 }

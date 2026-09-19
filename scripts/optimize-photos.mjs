@@ -26,8 +26,8 @@ for (const file of (await readdir("_photos")).filter((f) => /\.jpe?g$/i.test(f))
   const input = sharp(path.join("_photos", file)).rotate();
   const meta = await input.metadata();
   manifest[name] = { width: meta.width, height: meta.height };
-  // Исходник ≤ 800 px — один файл -800 (lib/photos.ts srcFor), без байт-в-байт копии -1600.
-  for (const w of meta.width <= 800 ? [800] : [800, 1600]) {
+  // Исходник ≤ 800 px — один файл -800 (lib/photos.ts srcFor). 1200 — для телефонов с DPR 2–3.
+  for (const w of meta.width <= 800 ? [800] : meta.width <= 1200 ? [800, 1200] : [800, 1200, 1600]) {
     await input
       .clone()
       .resize({ width: w, withoutEnlargement: true })

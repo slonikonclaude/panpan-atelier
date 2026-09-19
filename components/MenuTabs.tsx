@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion } from "motion/react";
+import { m as motion, useReducedMotion } from "motion/react";
 import { useId, useRef, useState } from "react";
 import { Img } from "@/components/Img";
 import { getDictionary, type Locale } from "@/lib/dictionaries";
@@ -64,7 +64,7 @@ export function MenuTabs({ locale, sections }: { locale: Locale; sections: MenuS
         <div className="flex flex-col gap-5">
           {photo ? (
             <div className="overflow-hidden rounded-[1.5rem] bg-pine">
-              <Img photo={photo} locale={locale} sizes="(min-width: 1024px) 480px, 92vw" className="aspect-[4/3] w-full object-cover lg:aspect-[4/5]" />
+              <Img photo={photo} locale={locale} sizes="(min-width: 1280px) 480px, (min-width: 1024px) 37vw, 92vw" className="aspect-[4/3] w-full object-cover lg:aspect-[4/5]" />
             </div>
           ) : null}
           {section.note?.[locale] ? <p className="text-[0.95rem] text-muted">{section.note[locale]}</p> : null}

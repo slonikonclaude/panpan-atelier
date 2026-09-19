@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, useReducedMotion, type Variants } from "motion/react";
+import { m, useReducedMotion, type Variants } from "motion/react";
 import type { ElementType, ReactNode } from "react";
 
 /**
@@ -20,6 +20,9 @@ import type { ElementType, ReactNode } from "react";
  *    и навсегда остаётся прозрачным.
  *
  * data-reveal нужен <noscript>-правилу в RootShell: без JS блок виден.
+ *
+ * `m.*` вместо `motion.*`: функции подгружает LazyMotion (components/MotionProvider.tsx, domAnimation),
+ * drag/layout в первый бандл не попадают.
  */
 
 const EASE = [0.16, 1, 0.3, 1] as const;
@@ -42,7 +45,7 @@ export function Reveal({
   delay?: number;
 }) {
   const reduced = useReducedMotion();
-  const MotionTag = motion[as as keyof typeof motion] as typeof motion.div;
+  const MotionTag = m[as as keyof typeof m] as typeof m.div;
 
   return (
     <MotionTag
@@ -72,7 +75,7 @@ export function RevealGroup({
   id?: string;
 }) {
   const reduced = useReducedMotion();
-  const MotionTag = motion[as as keyof typeof motion] as typeof motion.div;
+  const MotionTag = m[as as keyof typeof m] as typeof m.div;
 
   const variants: Variants = {
     hidden: {},
@@ -97,7 +100,7 @@ export function RevealItem({
   className?: string;
 }) {
   const reduced = useReducedMotion();
-  const MotionTag = motion[as as keyof typeof motion] as typeof motion.div;
+  const MotionTag = m[as as keyof typeof m] as typeof m.div;
 
   const variants: Variants = {
     hidden: { opacity: 0, y: 20 },

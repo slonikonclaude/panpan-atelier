@@ -1,7 +1,7 @@
 /**
  * Иконки сайта и превью для соцсетей (DESIGN.md §4). Запускается руками: `node scripts/make-icons.mjs`.
  *  - app/icon.png 64 и app/apple-icon.png 180: зигзаг-колос цвета пшеницы на какао фасада;
- *  - public/og.jpg 1200×630: слева знак «pan / pan» и лозунг на муке, справа кадр hero.
+ *  - public/og.jpg и og-en.jpg 1200×630: слева знак «pan / pan» и лозунг (ES/EN) на муке, справа кадр hero.
  * Цвета продублированы из app/globals.css: sharp не читает CSS-переменные.
  */
 import sharp from "sharp";
@@ -39,19 +39,24 @@ const markCocoa = await sharp({ create: { width: markMeta.width, height: markMet
   .png()
   .toBuffer();
 const photo = await sharp("_photos/hero.jpg").resize(560, 630, { fit: "cover", position: "centre" }).toBuffer();
-const text = `
+const card = (claim, tagline) => `
 <svg xmlns="http://www.w3.org/2000/svg" width="640" height="630">
-  <text x="72" y="468" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="${COCOA}">Saborea la vida… sin prisa.</text>
-  <text x="72" y="530" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2" fill="#685648">OBRADOR Y CAFETERÍA · GRAN VÍA, VALENCIA</text>
+  <text x="72" y="468" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="${COCOA}">${claim}</text>
+  <text x="72" y="530" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="700" letter-spacing="2" fill="#685648">${tagline}</text>
   <svg x="${72 + markMeta.width + 28}" y="${110 + 250 - 86}" width="76" height="76" viewBox="0 0 100 100" overflow="hidden">${zig(CRUST)}</svg>
 </svg>`;
-await sharp({ create: { width: 1200, height: 630, channels: 3, background: FLOUR } })
-  .composite([
-    { input: markCocoa, left: 72, top: 110 },
-    { input: Buffer.from(text), left: 0, top: 0 },
-    { input: photo, left: 640, top: 0 },
-  ])
-  .jpeg({ quality: 86 })
-  .toFile("public/og.jpg");
+for (const [file, claim, tagline] of [
+  ["public/og.jpg", "Saborea la vida… sin prisa.", "OBRADOR Y CAFETERÍA · GRAN VÍA, VALENCIA"],
+  ["public/og-en.jpg", "Savour life… no rush.", "BAKERY AND CAFÉ · GRAN VÍA, VALENCIA"],
+]) {
+  await sharp({ create: { width: 1200, height: 630, channels: 3, background: FLOUR } })
+    .composite([
+      { input: markCocoa, left: 72, top: 110 },
+      { input: Buffer.from(card(claim, tagline)), left: 0, top: 0 },
+      { input: photo, left: 640, top: 0 },
+    ])
+    .jpeg({ quality: 86 })
+    .toFile(file);
+}
 await sharp(Buffer.from(icon(false))).png().toFile("_data/icon-preview.png");
 console.log("icons + og ok");
