@@ -1,4 +1,4 @@
-import { Nunito_Sans, Young_Serif } from "next/font/google";
+import { DM_Serif_Display, Nunito_Sans } from "next/font/google";
 import type { ReactNode } from "react";
 import { getDictionary, type Locale } from "@/lib/dictionaries";
 
@@ -6,13 +6,13 @@ import { getDictionary, type Locale } from "@/lib/dictionaries";
  * Общая оболочка для обоих корневых layout-ов ((es) и (en)): у каждого языка
  * свой <html lang>, поэтому layout-ов два, а шрифты и body описаны один раз.
  *
- * Шрифты (DESIGN.md §6): Young Serif — заголовки и названия блюд (тёплая старая
- * антиква, «хлебная»); Nunito Sans — текст, кнопки и цены: гуманистический гротеск
+ * Шрифты (DESIGN.md §6): DM Serif Display — заголовки и названия блюд (контрастная
+ * тёплая антиква, как вывеска кондитерской); Nunito Sans — текст, кнопки и цены: гуманистический гротеск
  * с мягкими окончаниями, как буквы их вывески «pan pan». Subset latin: в нём все знаки испанского.
  */
 
-const display = Young_Serif({
-  variable: "--font-young-serif",
+const display = DM_Serif_Display({
+  variable: "--font-dm-serif",
   weight: "400",
   subsets: ["latin"],
   display: "swap",

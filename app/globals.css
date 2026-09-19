@@ -29,7 +29,7 @@
   --color-on-dark: #f7f2ea;
   --color-on-dark-muted: #cdbba7;
 
-  --font-display: var(--font-young-serif), ui-serif, Georgia, serif;
+  --font-display: var(--font-dm-serif), ui-serif, Georgia, serif;
   --font-sans: var(--font-nunito-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
