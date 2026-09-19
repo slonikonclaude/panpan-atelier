@@ -4,7 +4,7 @@ import { Reveal, RevealGroup, RevealItem } from "@/components/Reveal";
 import { Section } from "@/components/Section";
 import { IconAvocado, IconCup, IconFruitCup, IconHam, IconJar, IconJuice, IconToast, IconTomato } from "@/components/icons";
 import { getDictionary, type Locale } from "@/lib/dictionaries";
-import { formatPhotoDate, formatPrice } from "@/lib/format";
+import { formatMonth, formatPrice } from "@/lib/format";
 import { breakfastNotes, breakfasts, type ComboIcon } from "@/lib/menu";
 import { photos } from "@/lib/photos";
 
@@ -47,7 +47,7 @@ export function Breakfast({ locale }: { locale: Locale }) {
                       <span className="relative flex h-12 w-12 items-center justify-center rounded-full bg-pine">
                         <Icon width={24} height={24} />
                         {part.size ? (
-                          <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-crust text-[0.68rem] font-bold text-cocoa">{part.size}</span>
+                          <span className="absolute -right-1 -top-1 flex h-5 w-5 items-center justify-center rounded-full bg-crust text-[0.68rem] font-bold text-cocoa">{part.size[locale]}</span>
                         ) : null}
                       </span>
                     </li>
@@ -56,7 +56,7 @@ export function Breakfast({ locale }: { locale: Locale }) {
               </ol>
 
               <p className="mt-5 text-cocoa">{c.parts.map((part) => part.label[locale]).join(" + ")}</p>
-              <p className="mt-3 text-[0.85rem] text-muted">{d.seen(formatPhotoDate(c.seen, locale))}</p>
+              <p className="mt-3 text-[0.85rem] text-muted">{d.seen(formatMonth(c.seen, locale))}</p>
             </RevealItem>
           ))}
         </RevealGroup>

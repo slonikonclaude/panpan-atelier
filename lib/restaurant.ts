@@ -12,13 +12,15 @@ export const DAYS: DayKey[] = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"];
 export type Shift = { opens: string; closes: string };
 
 /**
- * Недельная таблица карточки Google (`[203]`): будни 7:30–21:30, суббота и воскресенье 7:30–14:00.
- * Instagram (2023) и сайт DISH дают другие часы — они старше; летом по выходным бывает своё
- * расписание (объявление на двери «Horario verano») — DESIGN.md §3.
+ * Часы сведены из пяти источников (DESIGN.md §2.2): будни 7:30–21:00, суббота 7:30–14:00,
+ * воскресенье 8:30–14:00. Карточка Google (не подтверждена владельцем) пишет будни до 21:30 и
+ * воскресенье с 7:30, но её же «Horas punta» дают ноль посетителей в 21:00 по будням и в 7:00 по
+ * воскресеньям; табличка на двери (09.2023), Instagram и сайт DISH — до 21:00, воскресенье с 8:30.
+ * Закрытие в выходные в 14:00 — по карточке и «Horas punta» (после 14:00 пусто).
  */
 export const venueHours: { day: DayKey; shifts: Shift[] }[] = DAYS.map((day) => ({
   day,
-  shifts: [{ opens: "7:30", closes: day === "sat" || day === "sun" ? "14:00" : "21:30" }],
+  shifts: [day === "sun" ? { opens: "8:30", closes: "14:00" } : { opens: "7:30", closes: day === "sat" ? "14:00" : "21:00" }],
 }));
 
 export const restaurant = {
@@ -29,7 +31,8 @@ export const restaurant = {
   address: {
     street: "Gran Via del Marqués del Túria, 51",
     district: "L'Eixample",
-    postalCode: "46004",
+    /** Их тики (2024), пакетики сахара и сайт DISH — 46005; карточка Google пишет 46004 (DESIGN.md §2.4). */
+    postalCode: "46005",
     city: "València",
     region: "Comunitat Valenciana",
     country: "ES",
@@ -39,7 +42,7 @@ export const restaurant = {
   plusCode: "8CFXFJ8J+XH",
 
   /** Карточка Google, их Instagram («Encargos: 963 06 08 11») и сайт DISH — один номер. */
-  phone: { display: "963 06 08 11", tel: "+34963060811" },
+  phone: { display: "963\u00a006\u00a008\u00a011", tel: "+34963060811" },
 
   instagram: { handle: "panpanatelier", url: "https://www.instagram.com/panpanatelier/" },
   facebook: { url: "https://www.facebook.com/panpanatelier/" },
@@ -47,8 +50,8 @@ export const restaurant = {
   /** Короткая ссылка — та, что прислал заказчик; ведёт на эту карточку (place id ChIJdSj7gLZIYA0RNkPiXqzXUFo). */
   googleMapsUrl: "https://maps.app.goo.gl/aU2HVCUi5Es3umQV9",
   directionsUrl:
-    "https://www.google.com/maps/dir/?api=1&destination=PanPan+Atelier%2C+Gran+Via+del+Marqu%C3%A9s+del+T%C3%BAria+51%2C+46004+Val%C3%A8ncia&destination_place_id=ChIJdSj7gLZIYA0RNkPiXqzXUFo",
-  googleMapsEmbedQuery: "PanPan+Atelier,+Gran+Via+del+Marqu%C3%A9s+del+T%C3%BAria,+51,+46004+Val%C3%A8ncia",
+    "https://www.google.com/maps/dir/?api=1&destination=PanPan+Atelier%2C+Gran+Via+del+Marqu%C3%A9s+del+T%C3%BAria+51%2C+46005+Val%C3%A8ncia&destination_place_id=ChIJdSj7gLZIYA0RNkPiXqzXUFo",
+  googleMapsEmbedQuery: "PanPan+Atelier,+Gran+Via+del+Marqu%C3%A9s+del+T%C3%BAria,+51,+46005+Val%C3%A8ncia",
 
   rating: {
     value: 4.3,

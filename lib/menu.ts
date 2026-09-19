@@ -17,7 +17,8 @@ import type { PhotoKey } from "@/lib/photos";
 type T = { es: string; en: string };
 
 export type ComboIcon = "cup" | "juice" | "toast" | "tomato" | "jar" | "ham" | "avocado" | "fruit";
-export type Combo = { id: string; name: T; parts: { icon: ComboIcon; label: T; size?: "P" | "G" }[]; price: number | null; seen: string };
+/** `size` — буква на значке стакана, как на доске: P/G по-испански, S/L по-английски. */
+export type Combo = { id: string; name: T; parts: { icon: ComboIcon; label: T; size?: T }[]; price: number | null; seen: string };
 
 /** `seen` — год/месяц, если цена старше даты раздела (показывается мелко в скобках). */
 export type Price = { label?: T; value: number; seen?: string };
@@ -34,8 +35,8 @@ export const breakfasts: Combo[] = [
     name: t("Mediterráneo", "Mediterranean"),
     parts: [
       { icon: "cup", label: t("Café o té", "Coffee or tea") },
-      { icon: "juice", size: "P", label: t("zumo de naranja pequeño", "small orange juice") },
-      { icon: "toast", label: t("½ tostada de pan blanco o de semillas", "half-size toast, white or seeded bread") },
+      { icon: "juice", size: t("P", "S"), label: t("zumo de naranja pequeño", "small orange juice") },
+      { icon: "toast", label: t("½ tostada de pan blanco o de semillas", "half a toast on white or seeded bread") },
       { icon: "tomato", label: t("tomate, o mermelada y mantequilla", "tomato, or jam and butter") },
     ],
     price: 4,
@@ -46,8 +47,8 @@ export const breakfasts: Combo[] = [
     name: t("Healthy", "Healthy"),
     parts: [
       { icon: "cup", label: t("Café o té", "Coffee or tea") },
-      { icon: "juice", size: "G", label: t("zumo de naranja grande o licuado pequeño", "large orange juice or small juice blend") },
-      { icon: "toast", label: t("tostada de pan blanco o de semillas", "toast, white or seeded bread") },
+      { icon: "juice", size: t("G", "L"), label: t("zumo de naranja grande o licuado pequeño", "large orange juice or small juice blend") },
+      { icon: "toast", label: t("tostada de pan blanco o de semillas", "toast on white or seeded bread") },
       { icon: "ham", label: t("paleta ibérica o aguacate", "Iberian cured pork shoulder or avocado") },
       { icon: "tomato", label: t("tomate, o mermelada y mantequilla", "tomato, or jam and butter") },
       { icon: "fruit", label: t("vaso de fruta", "fruit pot") },
@@ -60,12 +61,12 @@ export const breakfasts: Combo[] = [
 /** Сноски доски завтраков (G2 2022 и G3 2025 — одинаковые) и тика 07.2024. */
 export const breakfastNotes: T[] = [
   t(
-    "Por 0,20 € más, cambia la tostada por pan de espelta y nueces, de centeno o de masa madre.",
+    "Por 0,20\u00a0€ más, cambia la tostada por pan de espelta y nueces, de centeno o de masa madre.",
     "For €0.20 more, have your toast on spelt-and-walnut, rye or sourdough bread.",
   ),
-  t("Consulta la carta para añadir toppings a tu desayuno.", "Ask for the menu to add toppings to your breakfast."),
+  t("Consulta la carta para añadir toppings a tu desayuno.", "Check the menu for toppings to add to your breakfast."),
   t(
-    "Suelta, la tostada integral: media 0,75 €, entera 1,50 €; el topping de tomate, 0,50 € (tiques de 2024).",
+    "Suelta, la tostada integral: media 0,75\u00a0€, entera 1,50\u00a0€; el topping de tomate, 0,50\u00a0€ (tiques de 2024).",
     "Wholemeal toast on its own: half €0.75, whole €1.50; tomato topping €0.50 (2024 receipts).",
   ),
 ];
@@ -83,7 +84,7 @@ export const menuSections: MenuSection[] = [
     seen: "2023-10",
     source: t("pizarra de menús", "set-menu board"),
     note: t(
-      "Las seis ensaladas son las de la pizarra de noviembre de 2025; allí todas cuestan entre 5 y 6 €, pero la cifra exacta no se lee en la foto. Los menús: ensalada a elegir; bebida: zumo de naranja pequeño, refresco, cerveza o agua; tosta de aguacate o salmón. *Café o té, excepto capuchino y café con leche grande.",
+      "Las seis ensaladas son las de la pizarra de noviembre de 2025; allí todas cuestan entre 5 y 6\u00a0€, pero la cifra exacta no se lee en la foto. Los menús: ensalada a elegir; bebida: zumo de naranja pequeño, refresco, cerveza o agua; tosta de aguacate o salmón. *Café o té, excepto capuchino y café con leche grande.",
       "The six salads are those on the November 2025 board; there they all cost between €5 and €6, but the exact figures can’t be read in the photo. Set menus: any salad; drink: small orange juice, soft drink, beer or water; avocado or salmon toast. *Coffee or tea, except cappuccino and large café con leche.",
     ),
     items: [
@@ -188,7 +189,7 @@ export const menuSections: MenuSection[] = [
     source: t("pizarra de tostas y sándwiches", "toasts & sandwiches board"),
     note: t(
       "Los precios de los sándwiches club, de ventresca y de York y queso quedan tapados por el reflejo de una lámpara en la foto de la pizarra: consúltalos en el mostrador. En la vitrina hay además bocadillos de barra de semillas.",
-      "The prices of the club, ventresca and ham-and-cheese sandwiches are hidden by a lamp’s glare in the photo of the board: ask at the counter. The case also has bocadillos on seeded baguettes.",
+      "The prices of the club, ventresca and ham-and-cheese sandwiches are hidden by a lamp’s glare in the photo of the board: ask at the counter. The case also has bocadillos (Spanish baguette sandwiches) on seeded bread.",
     ),
     items: [
       {
@@ -211,7 +212,7 @@ export const menuSections: MenuSection[] = [
       },
       {
         id: "sandwich-ventresca",
-        name: t("Sándwich con ventresca", "Tuna belly sandwich"),
+        name: t("Sándwich con ventresca", "Ventresca (tuna belly) sandwich"),
         desc: t(
           "Pan de molde de tritordeum, mahonesa, lechuga romana, tomate, espárragos, aguacate, huevo duro y ventresca de atún",
           "Sliced tritordeum bread, mayonnaise, romaine, tomato, asparagus, avocado, hard-boiled egg and tuna belly (ventresca)",
@@ -300,8 +301,8 @@ export const menuSections: MenuSection[] = [
     seen: "2023-04",
     source: t("etiquetas de la vitrina y tiques", "display-case labels and receipts"),
     note: t(
-      "Solo lo que aparece con nombre en etiquetas y tiques. En la vitrina refrigerada hay además tartas del día.",
-      "Only what appears by name on labels and receipts. The chilled cabinet also holds the day’s cakes.",
+      "Solo lo que aparece con nombre en etiquetas y tiques. En la vitrina refrigerada hay además otras tartas, sin etiqueta legible en las fotos.",
+      "Only what appears by name on labels and receipts. The chilled cabinet also holds other cakes whose labels can’t be read in the photos.",
     ),
     items: [
       {
@@ -327,7 +328,7 @@ export const menuSections: MenuSection[] = [
     seen: "2024-11",
     source: t("tique", "receipt"),
     note: t(
-      "La pizarra de bebidas actual no se lee en las fotos. En la de julio de 2022: zumo de naranja pequeño 1,90 € y grande 2,85 €; licuados 3,00 € pequeño y 4,00 € grande; smoothies, todos a 3,95 €.",
+      "La pizarra de bebidas actual no se lee en las fotos. En la de julio de 2022: zumo de naranja pequeño 1,90\u00a0€ y grande 2,85\u00a0€; licuados 3,00\u00a0€ pequeño y 4,00\u00a0€ grande; smoothies, todos a 3,95\u00a0€.",
       "Today’s drinks board can’t be read in the photos. On the July 2022 board: small orange juice €1.90, large €2.85; juice blends €3.00 small and €4.00 large; smoothies all €3.95.",
     ),
     items: [
@@ -359,8 +360,8 @@ export const menuSections: MenuSection[] = [
     seen: "2024-11",
     source: t("tiques", "receipts"),
     note: t(
-      "Café Lavazza. La bebida de avena y el descafeinado no se cobran aparte (tique de julio de 2024).",
-      "Lavazza coffee. Oat drink and decaf cost nothing extra (July 2024 receipt).",
+      "Café Lavazza. El descafeinado no se cobra aparte (tiques de 2024); la bebida de avena tampoco, en los tiques de 2022.",
+      "Lavazza coffee. Decaf costs nothing extra (2024 receipts); nor did oat drink on the 2022 receipts.",
     ),
     items: [
       {

@@ -39,7 +39,7 @@ export function JsonLd({ locale }: { locale: Locale }) {
     },
     geo: { "@type": "GeoCoordinates", latitude: restaurant.geo.lat, longitude: restaurant.geo.lng },
     openingHoursSpecification: restaurant.hours.flatMap((d) =>
-      d.shifts.map((s) => ({ "@type": "OpeningHoursSpecification", dayOfWeek: `https://schema.org/${DAY[d.day]}`, opens: s.opens, closes: s.closes })),
+      d.shifts.map((s) => ({ "@type": "OpeningHoursSpecification", dayOfWeek: `https://schema.org/${DAY[d.day]}`, opens: s.opens.padStart(5, "0"), closes: s.closes.padStart(5, "0") })),
     ),
     sameAs: [restaurant.instagram.url, restaurant.facebook.url, restaurant.googleMapsUrl],
   };

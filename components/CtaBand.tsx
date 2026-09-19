@@ -26,7 +26,7 @@ export function CtaBand({ locale }: { locale: Locale }) {
             href={restaurant.directionsUrl}
             target="_blank"
             rel="noopener"
-            className="inline-flex min-h-13 items-center justify-center gap-2 rounded-full bg-cocoa px-8 text-base font-bold text-on-dark transition-colors duration-200 hover:bg-cocoa-soft"
+            className="inline-flex min-h-13 items-center justify-center gap-2 whitespace-nowrap rounded-full bg-cocoa px-8 text-base font-bold text-on-dark transition-colors duration-200 hover:bg-cocoa-soft"
           >
             <IconDirections width={18} height={18} />
             {dict.cta.directions}
@@ -34,7 +34,7 @@ export function CtaBand({ locale }: { locale: Locale }) {
           </a>
           <a
             href={`tel:${restaurant.phone.tel}`}
-            className="tabular inline-flex min-h-13 items-center justify-center rounded-full border border-cocoa/40 px-8 text-base font-bold text-cocoa transition-colors duration-200 hover:border-cocoa"
+            className="tabular inline-flex min-h-13 items-center justify-center whitespace-nowrap rounded-full border border-cocoa/40 px-8 text-base font-bold text-cocoa transition-colors duration-200 hover:border-cocoa"
           >
             {dict.cta.callLong(restaurant.phone.display)}
           </a>

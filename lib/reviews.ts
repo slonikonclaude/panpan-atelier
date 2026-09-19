@@ -4,8 +4,8 @@
  * и полные тексты Maps (`_data/maps/reviews-es-relevant.json`). Не взяты: обрезанные «…»,
  * отзывы, где главное — имя сотрудницы, и переводы Google. Один отзыв 4★ оставлен намеренно;
  * жалобы на обслуживание и очереди честно видны в гистограмме и в Google, а не спрятаны.
- * Автор — имя и инициал. Дата: месяц, если отзыву меньше года (Google даёт «hace N meses»),
- * иначе только год — «hace un año / 2 años» точнее не бывает.
+ * Автор — имя и инициал. Дата: месяц, если отзыву меньше года (Google даёт «hace N meses»);
+ * старше — диапазон лет: на 09.2026 «hace un año» = 2024–2025, «2 años» = 2023–2024, «3 años» = 2022–2023.
  */
 export type Review = { id: string; author: string; stars: number; date: string; text: string };
 
@@ -36,21 +36,21 @@ export const reviews: Record<"es" | "en", Review[]> = {
       id: "cristina",
       author: "Cristina G.",
       stars: 5,
-      date: "2025",
+      date: "2024–2025",
       text: "Excelente trato por parte de todas las chicas, bollería muy rica y siempre atentas, vengo cada día y lo recomiendo 100%",
     },
     {
       id: "asuncion",
       author: "Asunción G.",
       stars: 5,
-      date: "2023",
+      date: "2022–2023",
       text: "La coca de calabaza espectacular, el café con leche de avena buenísimo, probé también la calabaza asada que me encantó, pero sobre todo la amabilidad y cordialidad de la camarera. Un diez para el trato que recibimos.",
     },
     {
       id: "estela",
       author: "Estela G.",
       stars: 5,
-      date: "2023",
+      date: "2022–2023",
       text: "Me encantó el lugar, muy acogedor, buen servicio, buenos precios ( no como otros hornos que los elevan muchísimo) y la comida estaba buenisima. Yo recomiendo los croissants pequeños rellenos de chocolate.",
     },
   ],
@@ -66,35 +66,35 @@ export const reviews: Record<"es" | "en", Review[]> = {
       id: "janet",
       author: "Janet R.",
       stars: 5,
-      date: "2025",
+      date: "2024–2025",
       text: "I had a wonderful breakfast and sat inside. Staff were quick, efficient and friendly. I’m making it one of my favorite places to meet friends.",
     },
     {
       id: "mohammad",
       author: "Mohammad E.",
       stars: 5,
-      date: "2024",
+      date: "2023–2024",
       text: "A beautiful spot for breakfast, brunch, and coffee.\n\nI had a great Cafe con Leche, and some delicious pastries.\n\nYou can find delicious baked goods and more.\n\nEverything is freshly baked and prepared.\n\nHighly recommended.",
     },
     {
       id: "rodrigo",
       author: "Rodrigo T.",
       stars: 5,
-      date: "2024",
+      date: "2023–2024",
       text: "Lovely staff, delicious bread and nice environment. The desayuno mediterraneo with avocado 🥑 topping on the regular bread 🥖 is delicious. Strongly recommend this place.",
     },
     {
       id: "stephanie",
       author: "Stephanie",
       stars: 5,
-      date: "2023",
+      date: "2022–2023",
       text: "The best sandwich club I ever ate. I lived in Valencia for two months and I ordered it 15 times because it is so good. The prices are amazing too!",
     },
     {
       id: "mark",
       author: "Mark D.",
       stars: 5,
-      date: "2023",
+      date: "2022–2023",
       text: "One of the best coffee shops we visited in Valencia. Amazing coffee, friendly staff, reasonable prices, pleasant surroundings and nice cheesecake. Ticked all the boxes.",
     },
   ],

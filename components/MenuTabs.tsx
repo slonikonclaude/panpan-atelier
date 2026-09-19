@@ -4,7 +4,7 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { useId, useRef, useState } from "react";
 import { Img } from "@/components/Img";
 import { getDictionary, type Locale } from "@/lib/dictionaries";
-import { formatPhotoDate, formatPrice } from "@/lib/format";
+import { formatMonth, formatPrice } from "@/lib/format";
 import type { MenuSection } from "@/lib/menu";
 import { photos } from "@/lib/photos";
 
@@ -97,7 +97,7 @@ export function MenuTabs({ locale, sections }: { locale: Locale; sections: MenuS
                 </div>
               ) : null}
               {section.note?.[locale] ? <p className="text-[0.95rem] text-muted">{section.note[locale]}</p> : null}
-              <p className="text-[0.85rem] text-muted">{m.seen(formatPhotoDate(section.seen, locale), section.source[locale])}</p>
+              <p className="text-[0.85rem] text-muted">{m.seen(formatMonth(section.seen, locale), section.source[locale])}</p>
             </div>
 
             <ul className="flex flex-col">

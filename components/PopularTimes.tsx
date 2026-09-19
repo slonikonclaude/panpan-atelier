@@ -98,7 +98,7 @@ export function PopularTimes({ locale }: { locale: Locale }) {
             {values.map((value, i) => (
               <tr key={i}>
                 <th scope="row">{`${from + i}:00`}</th>
-                <td>{`${value} %`}</td>
+                <td>{v.busyValue(value)}</td>
               </tr>
             ))}
           </tbody>

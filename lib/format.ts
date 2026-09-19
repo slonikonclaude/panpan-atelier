@@ -101,7 +101,7 @@ export function formatHour(hour: number) {
  * читается как английское слово.
  */
 export function formatPhotoDate(date: string, locale: Locale) {
-  if (/^\d{4}$/.test(date)) return date;
+  if (/^\d{4}(–\d{4})?$/.test(date)) return date;
   const [y, m] = date.split("-").map(Number);
   return new Intl.DateTimeFormat(intlLocale(locale), { month: locale === "es" ? "long" : "short", year: "numeric", timeZone: "UTC" }).format(new Date(Date.UTC(y, m - 1, 15)));
 }

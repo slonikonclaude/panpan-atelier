@@ -73,8 +73,8 @@ export function Reviews({ locale }: { locale: Locale }) {
                     <p>{rv.text}</p>
                   </blockquote>
                   <figcaption className="mt-5 flex items-baseline justify-between gap-3 border-t border-line pt-4 text-[0.92rem]">
-                    <span className="font-bold text-cocoa">{rv.author}</span>
-                    <span className="text-muted">{formatPhotoDate(rv.date, locale)}</span>
+                    <span className="min-w-0 font-bold text-cocoa">{rv.author}</span>
+                    <span className="shrink-0 whitespace-nowrap text-muted">{formatPhotoDate(rv.date, locale)}</span>
                   </figcaption>
                 </figure>
               </RevealItem>
