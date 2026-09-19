@@ -26,12 +26,10 @@ export function Hero({ locale }: { locale: Locale }) {
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 pb-16 pt-10 sm:px-8 sm:pt-14 lg:min-h-[calc(100svh-4.5rem)] lg:grid-cols-[1fr_1.05fr] lg:gap-16 lg:pb-20">
         <div className="max-w-xl">
           <h1 id="hero-title" className="flex items-end gap-5 text-cocoa">
-            <Wordmark markClassName="h-28 sm:h-37" label={restaurant.name} />
+            <Wordmark markClassName="h-28 sm:h-37" label={restaurant.shortName} />{" "}
             <span className="flex flex-col gap-3 pb-1">
               <Espiga size={44} className="text-crust" />
-              <span aria-hidden="true" className="eyebrow text-cocoa">
-                Atelier
-              </span>
+              <span className="eyebrow text-cocoa">Atelier</span>
             </span>
           </h1>
 

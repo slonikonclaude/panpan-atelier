@@ -32,7 +32,7 @@ export function RootShell({ locale, children }: { locale: Locale; children: Reac
       <head>
         {/* Без JS motion не снимает свой inline opacity:0 — блоки возвращаются на место (DESIGN.md §8). */}
         <noscript>
-          <style>{`[data-reveal]{opacity:1!important;transform:none!important}`}</style>
+          <style>{`[data-reveal]{opacity:1!important;transform:none!important}@layer theme{.menu-panel[hidden]{display:block!important}[role=tablist]{display:none!important}}.menu-panel::before{content:attr(data-title);display:block;margin-bottom:1rem;font-family:var(--font-display);font-size:1.6rem}`}</style>
         </noscript>
       </head>
       <body className="flex min-h-full flex-col">{children}</body>

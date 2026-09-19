@@ -1,6 +1,7 @@
 import { Img } from "@/components/Img";
 import { Espiga } from "@/components/Logo";
 import { Reveal, RevealGroup, RevealItem } from "@/components/Reveal";
+import { Rich } from "@/components/Rich";
 import { Section } from "@/components/Section";
 import { IconBag, IconCroissant, IconCup } from "@/components/icons";
 import { getDictionary, type Locale } from "@/lib/dictionaries";
@@ -24,7 +25,7 @@ export function About({ locale }: { locale: Locale }) {
           </div>
           <figcaption className="mt-4 flex items-start gap-3 text-[0.92rem] text-muted">
             <Espiga size={16} className="mt-1 shrink-0 text-crust" />
-            {a.photoCaption}
+            <Rich text={a.photoCaption} />
           </figcaption>
         </Reveal>
 

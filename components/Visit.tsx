@@ -2,6 +2,7 @@ import { HoursTable } from "@/components/HoursTable";
 import { MapEmbed } from "@/components/MapEmbed";
 import { PopularTimes } from "@/components/PopularTimes";
 import { Reveal } from "@/components/Reveal";
+import { Rich } from "@/components/Rich";
 import { Section } from "@/components/Section";
 import { IconDirections, IconExternal, IconInstagram, IconPhone, IconPin } from "@/components/icons";
 import { ServiceIcon } from "@/components/ServiceIcon";
@@ -29,7 +30,9 @@ export function Visit({ locale }: { locale: Locale }) {
             <div className="mt-4">
               <HoursTable locale={locale} />
             </div>
-            <p className="mt-4 max-w-[48ch] text-[0.92rem] text-muted">{v.hoursNote}</p>
+            <p className="mt-4 max-w-[48ch] text-[0.92rem] text-muted">
+              <Rich text={v.hoursNote} />
+            </p>
           </div>
 
           <div>

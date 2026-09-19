@@ -77,7 +77,7 @@ export function PopularTimes({ locale }: { locale: Locale }) {
           {values.map((value, i) => (
             <div key={i} className="flex h-full flex-1 flex-col justify-end">
               <span
-                className={`block w-full rounded-t-md ${i === peak ? "bg-crust" : "bg-pine"}`}
+                className={`block w-full rounded-t-md ${i === peak ? "bg-crust-deep" : "bg-muted/70"}`}
                 style={{ height: `${Math.max(value, 3)}%` }}
               />
             </div>

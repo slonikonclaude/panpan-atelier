@@ -53,6 +53,43 @@
   }
 }
 
+/*
+ * Печать: вся карта, а не одна вкладка. Правило в слое theme: preflight Tailwind v4 прячет
+ * [hidden] с !important в слое base, а для !important побеждает более ранний слой.
+ */
+@layer theme {
+  @media print {
+    .menu-panel[hidden] {
+      display: block !important;
+    }
+    [role="tablist"] {
+      display: none !important;
+    }
+  }
+}
+
+/* Заголовок панели карты для печати и режима без JS (в интерфейсе его роль играет вкладка). */
+@media print {
+  .menu-panel::before {
+    content: attr(data-title);
+    display: block;
+    margin-bottom: 1rem;
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+  }
+}
+
+/* Windows High Contrast: маска рисует знак фоном, а фон там подменяется — красим системным цветом. */
+@media (forced-colors: active) {
+  .wordmark-mask {
+    forced-color-adjust: none;
+    background-color: CanvasText;
+  }
+  a .wordmark-mask {
+    background-color: LinkText;
+  }
+}
+
 body {
   background-color: var(--color-flour);
   color: var(--color-cocoa);
