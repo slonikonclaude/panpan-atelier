@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+/**
+ * Токены из DESIGN.md §5. Хардкода цветов в компонентах нет — только эти
+ * переменные. Контраст каждой пары посчитан, значения — там же.
+ */
+@theme {
+  /* Светлые секции: мука (белая керамика и стены зала) и светлая сосна их панелей. */
+  --color-flour: #f7f2ea;
+  --color-pine: #ebd9bc;
+  --color-line: #ddcbaf;
+
+  /* Текст и тёмные секции — шоколадный фасад с белым «pan pan». */
+  --color-cocoa: #2a1f19;
+  --color-cocoa-soft: #3a2c23;
+  --color-cocoa-line: #4e3d32;
+  /* Вторичный текст: 6,25:1 на flour, 5,04:1 на pine. */
+  --color-muted: #685648;
+
+  /* Корочка — оранжевые стаканы зумо на их досках: кнопки (текст cocoa 5,5:1) и мелкие акценты. */
+  --color-crust: #d9823a;
+  --color-crust-soft: #e4964f;
+  /* Корочка как текст — только на flour (5,3:1); на pine не ставится (4,3). */
+  --color-crust-deep: #9c4f17;
+
+  /* Пшеница — зигзаг-колос логотипа: линии и текст только на cocoa (8,5:1). */
+  --color-wheat: #d8b884;
+
+  --color-on-dark: #f7f2ea;
+  --color-on-dark-muted: #cdbba7;
+
+  --font-display: var(--font-young-serif), ui-serif, Georgia, serif;
+  --font-sans: var(--font-nunito-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  scroll-behavior: smooth;
+  /* Якорные ссылки не загоняют заголовок под липкую шапку (h-18 = 4.5rem); scroll-mt у секций не ставится — он бы сложился с этим. */
+  scroll-padding-top: 4.5rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    scroll-behavior: auto;
+  }
+}
+
+/* Печать без прокрутки: блоки ниже экрана ещё не «проявились» — показываем всё. */
+@media print {
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+body {
+  background-color: var(--color-flour);
+  color: var(--color-cocoa);
+  font-family: var(--font-sans);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: var(--color-crust);
+  color: var(--color-cocoa);
+}
+
+/* Тон секции задаёт схему: браузер красит скроллбары и формы в тон. */
+.tone-light {
+  color-scheme: light;
+  background-color: var(--color-flour);
+  color: var(--color-cocoa);
+}
+.tone-deep {
+  color-scheme: light;
+  background-color: var(--color-pine);
+  color: var(--color-cocoa);
+}
+.tone-dark {
+  color-scheme: dark;
+  background-color: var(--color-cocoa);
+  color: var(--color-on-dark);
+}
+.tone-accent {
+  color-scheme: light;
+  background-color: var(--color-crust);
+  color: var(--color-cocoa);
+}
+
+/* Фокус: cocoa на светлом и на корочке, мука на тёмном. */
+@layer base {
+  :focus-visible {
+    outline: 2px solid var(--color-cocoa);
+    outline-offset: 3px;
+  }
+  .tone-dark :focus-visible {
+    outline-color: var(--color-on-dark);
+  }
+}
+
+/*
+ * Классы-компоненты — в слое components: утилиты Tailwind v4 (text-*, mr-*, hidden)
+ * должны их перебивать, а неслоёные правила перебили бы утилиты.
+ */
+@layer components {
+  /* Цены, часы, рейтинг — табличные цифры. */
+  .tabular {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  /* Надзаголовки — мелкий капс с разрядкой. */
+  .eyebrow {
+    font-family: var(--font-sans);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+  }
+
+  /*
+   * Вордмарк «pan / pan» — маска из снимка их вывески в зале (_photos/logo-white.png →
+   * public/brand/). Цвет — currentColor, поэтому один файл работает на муке, сосне и какао.
+   */
+  .wordmark-mask {
+    display: inline-block;
+    background-color: currentColor;
+    -webkit-mask: var(--wordmark) center / contain no-repeat;
+    mask: var(--wordmark) center / contain no-repeat;
+    aspect-ratio: 1950 / 1772;
+  }
+
+  /* Пунктир между названием и ценой — как отточие на их досках. */
+  .leader {
+    flex: 1 1 1.5rem;
+    min-width: 1rem;
+    border-bottom: 1px dotted var(--color-line);
+    transform: translateY(-0.35em);
+  }
+  .tone-dark .leader {
+    border-bottom-color: var(--color-cocoa-line);
+  }
+
+  /*
+   * Пол зала — гидравлическая плитка «кубы» (чёрно-серо-белая). Узор SVG-плиткой 48×83,14:
+   * шесть кубов с учётом переноса через край плитки, грани — светлая/средняя/тёмная.
+   * Только декор: полоса над подвалом.
+   */
+  .tiles {
+    background-color: var(--color-cocoa);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='83.14' viewBox='0 0 48 83.14'%3E%3Cpath d='M24 0 48 13.85 24 27.71 0 13.85ZM0 41.57 24 55.42 0 69.28 -24 55.42ZM48 41.57 72 55.42 48 69.28 24 55.42ZM0 -41.57 24 -27.72 0 -13.86 -24 -27.72ZM48 -41.57 72 -27.72 48 -13.86 24 -27.72ZM24 83.14 48 96.99 24 110.85 0 96.99Z' fill='%23f7f2ea' fill-opacity='.16'/%3E%3Cpath d='M0 13.85 24 27.71 24 55.42 0 41.57ZM-24 55.42 0 69.28 0 96.99 -24 83.14ZM24 55.42 48 69.28 48 96.99 24 83.14ZM-24 -27.72 0 -13.86 0 13.85 -24 0ZM24 -27.72 48 -13.86 48 13.85 24 0ZM0 96.99 24 110.85 24 138.56 0 124.71Z' fill='%23f7f2ea' fill-opacity='.07'/%3E%3Cpath d='M48 13.85 24 27.71 24 55.42 48 41.57ZM24 55.42 0 69.28 0 96.99 24 83.14ZM72 55.42 48 69.28 48 96.99 72 83.14ZM24 -27.72 0 -13.86 0 13.85 24 0ZM72 -27.72 48 -13.86 48 13.85 72 0ZM48 96.99 24 110.85 24 138.56 48 124.71Z' fill='%23000' fill-opacity='.2'/%3E%3C/svg%3E");
+    background-size: 48px 83.14px;
+  }
+
+  /* Заголовки не оставляют висячих слов. */
+  .balance {
+    text-wrap: balance;
+  }
+}

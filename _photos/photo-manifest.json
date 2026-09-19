@@ -1,0 +1,110 @@
+{
+  "barra": {
+    "width": 2400,
+    "height": 1350
+  },
+  "coca-calabaza": {
+    "width": 2400,
+    "height": 1318
+  },
+  "cruasan": {
+    "width": 2400,
+    "height": 1800
+  },
+  "desayuno-cruasan": {
+    "width": 1800,
+    "height": 2400
+  },
+  "desayuno": {
+    "width": 1674,
+    "height": 2400
+  },
+  "donut": {
+    "width": 1800,
+    "height": 2400
+  },
+  "ensalada": {
+    "width": 1800,
+    "height": 2400
+  },
+  "esquina": {
+    "width": 1800,
+    "height": 2400
+  },
+  "fachada-calle": {
+    "width": 2400,
+    "height": 1800
+  },
+  "fachada": {
+    "width": 2400,
+    "height": 1800
+  },
+  "hero": {
+    "width": 1800,
+    "height": 2400
+  },
+  "hornacinas": {
+    "width": 2400,
+    "height": 1800
+  },
+  "lema": {
+    "width": 2400,
+    "height": 1406
+  },
+  "licuados": {
+    "width": 1350,
+    "height": 2400
+  },
+  "napolitana": {
+    "width": 2400,
+    "height": 2400
+  },
+  "rincon": {
+    "width": 2400,
+    "height": 1800
+  },
+  "sandwich-club": {
+    "width": 1800,
+    "height": 2400
+  },
+  "tarta-queso": {
+    "width": 1800,
+    "height": 2400
+  },
+  "terraza": {
+    "width": 1351,
+    "height": 2400
+  },
+  "tostada-aguacate": {
+    "width": 2400,
+    "height": 1807
+  },
+  "tostada-tomate": {
+    "width": 1800,
+    "height": 2400
+  },
+  "tulipa": {
+    "width": 2400,
+    "height": 1800
+  },
+  "ventanal": {
+    "width": 1351,
+    "height": 2400
+  },
+  "vitrina-bolleria": {
+    "width": 2400,
+    "height": 1800
+  },
+  "vitrina-dulce": {
+    "width": 2400,
+    "height": 1352
+  },
+  "vitrina-empanadillas": {
+    "width": 2400,
+    "height": 1800
+  },
+  "vitrina-salados": {
+    "width": 2400,
+    "height": 1352
+  }
+}

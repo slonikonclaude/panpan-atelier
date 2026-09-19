@@ -1,0 +1,720 @@
+{
+ "sections": [
+  {
+   "id": "desayunos",
+   "title_en": "Breakfast (until 11am)",
+   "note_en": "For an extra €0.20, swap your toast for spelt and walnut bread, rye bread or sourdough bread. See the menu to add different toppings to your breakfast.",
+   "items": [
+    {
+     "id": "desayuno-mediterraneo",
+     "name_en": "Mediterranean Breakfast",
+     "desc_en": "Coffee or tea + small orange juice + half toast (white / seeded) + tomato, or jam and butter",
+     "variant_labels_en": [
+      "Combo"
+     ]
+    },
+    {
+     "id": "desayuno-healthy",
+     "name_en": "Healthy Breakfast",
+     "desc_en": "Coffee or tea + large orange juice or small juice blend + toast (white / seeded) + Iberian cured shoulder or avocado + tomato, or jam and butter + fruit pot",
+     "variant_labels_en": [
+      "Combo"
+     ]
+    },
+    {
+     "id": "suplemento-pan",
+     "name_en": "Bread swap",
+     "desc_en": "For an extra €0.20, swap your toast for spelt and walnut bread, rye bread or sourdough bread",
+     "variant_labels_en": [
+      "Supplement"
+     ]
+    },
+    {
+     "id": "tostada-integral",
+     "name_en": "Wholemeal toast",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Half (½)",
+      "Whole"
+     ]
+    },
+    {
+     "id": "topping-tomate",
+     "name_en": "Tomato topping",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Topping"
+     ]
+    },
+    {
+     "id": "vaso-de-fruta",
+     "name_en": "Fruit pot",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Pot"
+     ]
+    },
+    {
+     "id": "merienda",
+     "name_en": "Merienda",
+     "desc_en": "Merienda is the Spanish afternoon snack: Cacaolat chocolate milk or juice + your choice of 2 mini sponge cakes, 2 mini croissants or 1 cookie",
+     "variant_labels_en": [
+      "Combo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "menus",
+   "title_en": "Set lunch menus",
+   "note_en": "Salad: choose whichever you like. Drink: small orange juice, soft drink, beer or water. Toast: avocado / salmon. *Coffee or tea, excluding cappuccino and large café con leche.",
+   "items": [
+    {
+     "id": "menu-basico",
+     "name_en": "Basic Set Menu",
+     "desc_en": "Salad + drink + coffee or tea*",
+     "variant_labels_en": [
+      "Set menu"
+     ]
+    },
+    {
+     "id": "menu-completo",
+     "name_en": "Full Set Menu",
+     "desc_en": "Salad + open toast + drink + coffee or tea*",
+     "variant_labels_en": [
+      "Set menu"
+     ]
+    },
+    {
+     "id": "suplemento-zumo-grande",
+     "name_en": "Large juice or juice blend with your set menu",
+     "desc_en": "For an extra €1, make your orange juice a large one or swap it for a small juice blend",
+     "variant_labels_en": [
+      "Supplement"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ensaladas",
+   "title_en": "Salads",
+   "note_en": "These six salads are on the current blackboard (November 2025), but their prices (all €5.xx) can't be read. The last legible price, from May 2022, is shown.",
+   "items": [
+    {
+     "id": "ensalada-fusilli",
+     "name_en": "Fusilli Salad",
+     "desc_en": "Tricolour fusilli pasta, black olives, anchovies, cherry tomatoes, fresh mozzarella and pesto",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    },
+    {
+     "id": "ensalada-cesar",
+     "name_en": "Caesar Salad",
+     "desc_en": "Mixed lettuce, grilled chicken, croutons, Grana Padano cheese and Caesar dressing",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    },
+    {
+     "id": "ensalada-otono",
+     "name_en": "Autumn Salad",
+     "desc_en": "Lamb's lettuce, apple, toasted walnuts, caramelised peanuts, cherry tomatoes, goat's cheese and crispy cassava",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    },
+    {
+     "id": "ensalada-ventresca",
+     "name_en": "Ventresca Salad",
+     "desc_en": "Romaine lettuce, red onion, tuna belly (ventresca), sweetcorn, asparagus, hard-boiled egg, grated carrot and cherry tomatoes",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    },
+    {
+     "id": "ensalada-bahia",
+     "name_en": "Bahía Salad",
+     "desc_en": "Lamb's lettuce, tricolour fusilli pasta, smoked salmon, sun-dried tomatoes, black olives, feta cheese and mustard vinaigrette",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    },
+    {
+     "id": "ensalada-cobb",
+     "name_en": "Cobb Salad",
+     "desc_en": "Mixed lettuce and shoots, hard-boiled egg, avocado, tomato, grilled chicken, blue cheese and special 'ranch' dressing",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    },
+    {
+     "id": "ensalada-ambra",
+     "name_en": "Ambra Salad",
+     "desc_en": "Romaine lettuce, goat's cheese, fried bacon, cherry tomatoes, dates, mixed nuts, walnuts and raspberry vinaigrette",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    },
+    {
+     "id": "ensalada-quinoa",
+     "name_en": "Quinoa Salad",
+     "desc_en": "Quinoa, hummus … and sesame",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "tostas",
+   "title_en": "Open toasts",
+   "note_en": "*Choose your bread for the toast: spelt and walnut, rye or sourdough.",
+   "items": [
+    {
+     "id": "tosta-salmon",
+     "name_en": "Salmon toast",
+     "desc_en": "Mayonnaise, mixed leaves, hard-boiled egg, spring onion, pickled gherkins and smoked salmon",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "tosta-aguacate",
+     "name_en": "Avocado toast",
+     "desc_en": "Avocado, tomato, red onion, lemon juice and olive oil",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "tosta-hummus",
+     "name_en": "Hummus toast",
+     "desc_en": "Hummus with olive oil, sun-dried tomato and rocket",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "hummus",
+     "name_en": "Hummus",
+     "desc_en": "Chickpeas, tahini, olive oil, garlic, cumin and sweet paprika, served with rosquilletas (Valencian breadsticks)",
+     "variant_labels_en": [
+      "Portion"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "sandwiches",
+   "title_en": "Sandwiches, bocadillos and focaccia",
+   "note_en": "The sandwiches are the ones on the 'Toasts & Sandwiches' blackboard; the bocadillos only appear on till receipts.",
+   "items": [
+    {
+     "id": "sandwich-salmon",
+     "name_en": "Salmon sandwich",
+     "desc_en": "Tritordeum sliced bread, mayonnaise, mixed leaves, spring onion, hard-boiled egg, pickled gherkins and smoked salmon",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "sandwich-ventresca",
+     "name_en": "Ventresca sandwich",
+     "desc_en": "Tritordeum sliced bread, mayonnaise, romaine lettuce, tomato, asparagus, avocado, hard-boiled egg and tuna belly (ventresca)",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "sandwich-club",
+     "name_en": "Club sandwich",
+     "desc_en": "Sliced bread, mayonnaise, lettuce, tomato, cooked ham, Edam cheese, grilled chicken and bacon",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "sandwich-york-queso",
+     "name_en": "Griddled ham and cheese sandwich",
+     "desc_en": "Sliced bread, cooked ham and Edam cheese",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "bocadillo-atun",
+     "name_en": "Tuna and oil bocadillo",
+     "desc_en": "Bocadillo: a Spanish baguette sandwich",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "bocadillo-paleta",
+     "name_en": "Cured shoulder bocadillo",
+     "desc_en": "Bocadillo: a Spanish baguette sandwich, filled with cured shoulder (paleta)",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "focaccia-jamon",
+     "name_en": "Ham focaccia",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bolleria",
+   "title_en": "Pastries from our bakery",
+   "note_en": "Price per item, as shown on the display-counter labels and receipts.",
+   "items": [
+    {
+     "id": "cruasan-mantequilla",
+     "name_en": "Butter croissant",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "mini-cruasan-mantequilla",
+     "name_en": "Mini butter croissant",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "mini-cruasan-chocolate",
+     "name_en": "Mini chocolate croissant",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "mini-cruasan-almendra",
+     "name_en": "Mini almond croissant",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "cruasan-almendra",
+     "name_en": "Almond croissant",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "ensaimada",
+     "name_en": "Ensaimada",
+     "desc_en": "Mallorcan spiral pastry dusted with icing sugar",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "ensaimada-plus",
+     "name_en": "Ensaimada Plus",
+     "desc_en": "The 'Plus' version of our ensaimada (Mallorcan spiral pastry)",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "panquemao",
+     "name_en": "Panquemao",
+     "desc_en": "Traditional Valencian sweet bread, brioche-like, with a sugar-crusted top",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "caracola-chocolate",
+     "name_en": "Chocolate swirl",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "palmera-chocolate",
+     "name_en": "Chocolate palmier",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "panut",
+     "name_en": "Panut (house doughnut)",
+     "desc_en": "",
+     "variant_labels_en": [
+      "White",
+      "Chocolate",
+      "Coloured"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "salados",
+   "title_en": "Savoury bakes from the counter",
+   "note_en": "Empanadillas, pizza slices, quiche and savoury pastries.",
+   "items": [
+    {
+     "id": "empanadillas",
+     "name_en": "Empanadillas",
+     "desc_en": "Baked turnovers",
+     "variant_labels_en": [
+      "Beef",
+      "Chicken",
+      "Spinach",
+      "Pisto (Spanish-style ratatouille)"
+     ]
+    },
+    {
+     "id": "pizza-porcion",
+     "name_en": "Pizza (slice)",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Pepperoni",
+      "Bacon and cheese",
+      "Ham and cheese",
+      "Four cheese",
+      "Vegetable"
+     ]
+    },
+    {
+     "id": "quiche-york-queso",
+     "name_en": "Ham and cheese quiche",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "cruasan-jamon-queso",
+     "name_en": "Ham and cheese croissant",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "napolitana-jamon-queso",
+     "name_en": "Ham and cheese napolitana",
+     "desc_en": "Napolitana: a flat, rectangular pastry made with croissant dough",
+     "variant_labels_en": [
+      "Each"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "dulces",
+   "title_en": "Cakes and sweet treats",
+   "note_en": "Only items shown with a written name. The chilled display case holds more cakes without a legible label.",
+   "items": [
+    {
+     "id": "cookie-chocolate",
+     "name_en": "Chocolate chip cookie",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    },
+    {
+     "id": "eclair",
+     "name_en": "Éclair",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Chocolate",
+      "Coffee",
+      "Vanilla"
+     ]
+    },
+    {
+     "id": "san-marcos",
+     "name_en": "San Marcos",
+     "desc_en": "Spanish sponge cake layered with whipped cream and chocolate truffle, topped with caramelised egg yolk",
+     "variant_labels_en": [
+      "Each / slice"
+     ]
+    },
+    {
+     "id": "coca-calabaza",
+     "name_en": "Coca de calabaza",
+     "desc_en": "Valencian pumpkin sponge cake",
+     "variant_labels_en": [
+      "Slice"
+     ]
+    },
+    {
+     "id": "turrones",
+     "name_en": "Turrón",
+     "desc_en": "Spanish nougat, traditionally made with almonds and honey",
+     "variant_labels_en": [
+      "Bar"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zumos",
+   "title_en": "Juices, juice blends and smoothies",
+   "note_en": "On the 2022 board, P (pequeño) means small and G (grande) means large. The 2023–2025 drinks blackboard can't be read.",
+   "items": [
+    {
+     "id": "zumo-naranja",
+     "name_en": "Orange juice",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Small",
+      "Large",
+      "Orange juice (from receipt, size not stated)"
+     ]
+    },
+    {
+     "id": "licuado-multivitaminico",
+     "name_en": "Multivitamin juice blend",
+     "desc_en": "Orange, apple, carrot, lemon",
+     "variant_labels_en": [
+      "Small",
+      "Large"
+     ]
+    },
+    {
+     "id": "licuado-digestivo",
+     "name_en": "Digestive juice blend",
+     "desc_en": "Pineapple and apple",
+     "variant_labels_en": [
+      "Small",
+      "Large"
+     ]
+    },
+    {
+     "id": "licuado-antioxidante",
+     "name_en": "Antioxidant juice blend",
+     "desc_en": "Spinach, cucumber, apple, lemon",
+     "variant_labels_en": [
+      "Small",
+      "Large"
+     ]
+    },
+    {
+     "id": "licuado-refrescante",
+     "name_en": "Refreshing juice blend",
+     "desc_en": "Apple, lemon and ginger",
+     "variant_labels_en": [
+      "Small",
+      "Large"
+     ]
+    },
+    {
+     "id": "smoothies",
+     "name_en": "Smoothies",
+     "desc_en": "Banana and strawberry · Peach, strawberry and papaya · Pear and mango · Pineapple, mango and papaya · Apple, raspberry, blackberry and mango",
+     "variant_labels_en": [
+      "All at"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cafes",
+   "title_en": "Coffee, cocoa and herbal teas",
+   "note_en": "Lavazza coffee. Prices taken from receipts, including VAT.",
+   "items": [
+    {
+     "id": "cafe-solo",
+     "name_en": "Espresso",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Cup"
+     ]
+    },
+    {
+     "id": "cafe-americano",
+     "name_en": "Americano",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Cup"
+     ]
+    },
+    {
+     "id": "cortado",
+     "name_en": "Cortado",
+     "desc_en": "Espresso with a dash of milk",
+     "variant_labels_en": [
+      "Glass"
+     ]
+    },
+    {
+     "id": "cafe-con-leche",
+     "name_en": "Café con leche",
+     "desc_en": "Espresso with hot milk",
+     "variant_labels_en": [
+      "Regular",
+      "Large"
+     ]
+    },
+    {
+     "id": "capuchino",
+     "name_en": "Cappuccino",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Cup"
+     ]
+    },
+    {
+     "id": "cafe-bombon",
+     "name_en": "Café bombón",
+     "desc_en": "Espresso with sweetened condensed milk",
+     "variant_labels_en": [
+      "Glass"
+     ]
+    },
+    {
+     "id": "colacao",
+     "name_en": "ColaCao",
+     "desc_en": "Classic Spanish cocoa drink",
+     "variant_labels_en": [
+      "Cup"
+     ]
+    },
+    {
+     "id": "infusiones",
+     "name_en": "Herbal teas",
+     "desc_en": "Moroccan tea · Pennyroyal · Camomile · Pennyroyal mint",
+     "variant_labels_en": [
+      "Cup"
+     ]
+    },
+    {
+     "id": "extras-cafe",
+     "name_en": "Coffee extras (oat milk, decaf, short, extra-hot milk)",
+     "desc_en": "",
+     "variant_labels_en": [
+      "No charge"
+     ]
+    },
+    {
+     "id": "hielo",
+     "name_en": "Ice",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Supplement"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "otros",
+   "title_en": "Other drinks",
+   "note_en": "Set-menu drinks: small orange juice, soft drink, beer or water.",
+   "items": [
+    {
+     "id": "agua",
+     "name_en": "Bottled water",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Bottle"
+     ]
+    },
+    {
+     "id": "refresco-cerveza",
+     "name_en": "Soft drink or beer",
+     "desc_en": "",
+     "variant_labels_en": [
+      "Each"
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  "pan de masa madre → sourdough bread",
+  "pan de espelta y nueces → spelt and walnut bread (nueces = walnuts)",
+  "pan de centeno → rye bread",
+  "(pan) semillas → seeded (bread)",
+  "tostada integral → wholemeal toast (British 'wholemeal', not 'whole wheat')",
+  "1/2 tostada / media → half toast; entera → whole",
+  "tomate (breakfast topping) → tomato; kept plain, not glossed as 'grated tomato with olive oil', because the source names only tomato and the rules forbid adding ingredients",
+  "tomate o mermelada y mantequilla → 'tomato, or jam and butter' (comma added so it can't be read as tomato-or-jam, plus butter)",
+  "paleta ibérica → Iberian cured shoulder (not ham leg); paleta (bocadillo, no 'ibérica') → cured shoulder (paleta)",
+  "vaso de fruta → fruit pot (avoided 'fruit cup', which in British English can mean a Pimm's-style drink); vaso (variant) → pot",
+  "licuado → juice blend (fresh juice from a juicer, as opposed to zumo = squeezed juice); used consistently in breakfast, set menus and the juice section",
+  "Combo (breakfast variant) → Combo (kept as is)",
+  "Merienda → kept in Spanish, glossed as the Spanish afternoon snack",
+  "Cacaolat → kept as brand name, glossed 'chocolate milk'",
+  "bizcochitos mini → mini sponge cakes",
+  "Menús de mediodía → Set lunch menus; Menú Básico / Completo → Basic / Full Set Menu; variant Menú → Set menu",
+  "Suplemento → Supplement (normal on British set menus)",
+  "tosta → open toast (section title, set-menu copy); item names shortened to 'Salmon/Avocado/Hummus toast'",
+  "pollo braseado → grilled chicken ('braseado' means cooked over embers; the British 'braised' is a false friend)",
+  "canónigos → lamb's lettuce",
+  "lechuga romana → romaine lettuce (also called cos in the UK)",
+  "lechugas variadas → mixed lettuce; mezcla de lechugas y brotes → mixed lettuce and shoots",
+  "mézclum → mixed leaves",
+  "picatostes → croutons",
+  "crujiente de yuca → crispy cassava",
+  "ventresca de atún → tuna belly (ventresca); salad and sandwich names kept as 'Ventresca' because that is the house name",
+  "maíz dulce → sweetcorn",
+  "cebolla morada → red onion; cebolla tierna → spring onion",
+  "pepinillos en vinagre → pickled gherkins",
+  "tomate seco → sun-dried tomato",
+  "rúcula → rocket",
+  "salsa especial «ranchera» → special 'ranch' dressing (British single quotes)",
+  "salsa César → Caesar dressing; salsa pesto → pesto",
+  "mix de frutos secos → mixed nuts (listed separately from walnuts, as in the source)",
+  "queso de cabra → goat's cheese",
+  "Bahía / Ambra (salad names) → kept as proper names",
+  "Ensalada Quinoa description 'Quinoa, hummus … y sésamo' → ellipsis kept because the source list is partly illegible",
+  "ensaladas note says 'six salads' although eight are listed: translated as written, not corrected",
+  "rosquilletas → kept, glossed 'Valencian breadsticks'",
+  "pimentón dulce → sweet paprika; garbanzos → chickpeas",
+  "pan de molde → sliced bread; pan de molde de tritordeum → tritordeum sliced bread (tritordeum is a wheat-barley hybrid grain; not glossed in the copy)",
+  "jamón York → cooked ham; jamón (focaccia, pizza, croissant, napolitana) → ham (source doesn't say cured or cooked)",
+  "a la plancha → griddled ('Griddled ham and cheese sandwich' rather than 'toastie', which implies a sandwich press)",
+  "bocadillo → kept in Spanish, glossed 'Spanish baguette sandwich'",
+  "atún y aceite → tuna and oil (source does not specify olive oil)",
+  "tiques → till receipts / receipts",
+  "Bollería del obrador → Pastries from our bakery (obrador = the café's own bakery)",
+  "vitrina → display counter / counter; vitrina refrigerada → chilled display case",
+  "Unidad → Each; Ración → Portion; Porción → Slice; Tableta → Bar; Taza → Cup; Vaso (coffee) → Glass; Botella → Bottle",
+  "Ensaimada → kept, glossed 'Mallorcan spiral pastry dusted with icing sugar'; Ensaimada Plus → kept, and 'Plus' is not explained because the source doesn't say what it means",
+  "Panquemao → kept, glossed as Valencian brioche-like sweet bread with a sugar-crusted top",
+  "caracola de chocolate → chocolate swirl",
+  "palmera de chocolate → chocolate palmier",
+  "Panut (dónut de la casa) → Panut (house doughnut); variants Blanco / Colores → White / Coloured",
+  "empanadillas → kept, glossed 'baked turnovers'; Pisto → kept, glossed 'Spanish-style ratatouille'",
+  "Peperoni → Pepperoni (English spelling); Verduras → Vegetable",
+  "napolitana → kept, glossed as a flat rectangular pastry made with croissant dough",
+  "San Marcos → kept, glossed as sponge cake with whipped cream and chocolate truffle, topped with caramelised egg yolk",
+  "coca de calabaza → kept, glossed 'Valencian pumpkin sponge cake'",
+  "Turrones → Turrón (singular Spanish form in the English name), glossed as Spanish nougat",
+  "P / G (juice sizes) → Small / Large; the note keeps P (pequeño) / G (grande) to explain the board",
+  "Licuado digestivo → Digestive juice blend (literal; context stops it being read as the biscuit)",
+  "Todos a (smoothie price label) → All at",
+  "café solo → Espresso",
+  "cortado → kept, glossed 'espresso with a dash of milk'",
+  "café con leche → kept, glossed 'espresso with hot milk'; Normal / Grande → Regular / Large",
+  "café bombón → kept, glossed 'espresso with sweetened condensed milk'",
+  "ColaCao → kept as brand name, glossed 'Spanish cocoa drink'",
+  "infusiones → herbal teas; té moruno → Moroccan tea; poleo → pennyroyal; poleo menta → pennyroyal mint; manzanilla → camomile (British spelling)",
+  "bebida de avena → oat milk (normal British café wording); corto → short; leche muy caliente → extra-hot milk; Sin cargo → No charge",
+  "IVA incluido → including VAT",
+  "refresco → soft drink; Agua (botella) → Bottled water",
+  "Prices in running text use English format: 0,20 € → €0.20, 5,xx € → €5.xx",
+  "Dates: 11/2025 → November 2025; 2023-2025 → 2023–2025 (en dash)"
+ ]
+}

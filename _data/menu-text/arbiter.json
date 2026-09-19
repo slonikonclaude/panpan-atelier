@@ -1,0 +1,2060 @@
+{
+ "sources": [
+  {
+   "file": "p125.jpg",
+   "date": "2017-06-25",
+   "date_basis": "fecha impresa en el tique (Fact. Simpl. 064850, 25/06/17)",
+   "kind": "tique de caja",
+   "board_generation": "— (época G1)"
+  },
+  {
+   "file": "p052.jpg",
+   "date": "2017-11-08",
+   "date_basis": "EXIF 2017:11:08 (consA); solo snippet del catálogo",
+   "kind": "vitrina, etiquetas (solo nombres)",
+   "board_generation": "—"
+  },
+  {
+   "file": "p164.jpg",
+   "date": "2018-03-14",
+   "date_basis": "fecha impresa 14/03/18 = EXIF",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p135.jpg",
+   "date": "2019-02-08",
+   "date_basis": "EXIF DateTimeOriginal 2019:02:08",
+   "kind": "pizarras de tiza manuscritas",
+   "board_generation": "G1 pizarras de tiza (≤2019)"
+  },
+  {
+   "file": "p093.jpg / p169.jpg",
+   "date": "2019-03-21",
+   "date_basis": "comanda '21/03' + fecha Google p169 2019-11-20; snippet del catálogo",
+   "kind": "comanda sin precios",
+   "board_generation": "—"
+  },
+  {
+   "file": "p058.jpg / p182.jpg",
+   "date": "2020-02-12",
+   "date_basis": "EXIF 2020:02:12 (consA); snippet del catálogo",
+   "kind": "tique (precios fuera de encuadre)",
+   "board_generation": "—"
+  },
+  {
+   "file": "p018.jpg",
+   "date": "2020-02-27",
+   "date_basis": "EXIF 2020:02:27 (consA); snippet del catálogo",
+   "kind": "comanda sin precios",
+   "board_generation": "—"
+  },
+  {
+   "file": "p062.jpg",
+   "date": "2020-09-12",
+   "date_basis": "fecha impresa 12/09/20",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p101.jpg / p177.jpg",
+   "date": "2021-11-17",
+   "date_basis": "fecha impresa 17/11/21 (mismo tique)",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p112.jpg",
+   "date": "2021-12-18",
+   "date_basis": "EXIF DateTime 2021:12:18 18:32 (Samsung G991B), comprobado en el original; tableros leídos en consA-p112-L/M/R.jpg y verificados por el árbitro",
+   "kind": "tableros de pino (Desayunos, Menús, Ensaladas, Tostas y Sándwich)",
+   "board_generation": "G2 tableros de pino"
+  },
+  {
+   "file": "p100.jpg",
+   "date": "2022-02-20",
+   "date_basis": "comprobante TPV 20.02.22 = EXIF",
+   "kind": "comprobante de tarjeta (solo total)",
+   "board_generation": "—"
+  },
+  {
+   "file": "p162.jpg",
+   "date": "2022-05-14",
+   "date_basis": "EXIF DateTimeOriginal 2022:05:14 10:53:36 comprobado por el árbitro en el original 8000×6000 (B lo daba sin fecha)",
+   "kind": "tableros de pino, 5 paneles",
+   "board_generation": "G2 tableros de pino"
+  },
+  {
+   "file": "p071.jpg / p191.jpg",
+   "date": "2022-05-14",
+   "date_basis": "fecha impresa 14/05/22 (mismo tique 050510)",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p165.jpg",
+   "date": "2022-06-12",
+   "date_basis": "fecha impresa 12/06/22",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p201.jpg",
+   "date": "2022-06-13",
+   "date_basis": "fecha Google; solo total 12,15 (probablemente el mismo tique que p165)",
+   "kind": "tique (solo total)",
+   "board_generation": "—"
+  },
+  {
+   "file": "p013.jpg",
+   "date": "2022-07-03",
+   "date_basis": "EXIF 2022:07:03",
+   "kind": "tablero de pino (Desayunos + Menús)",
+   "board_generation": "G2 tableros de pino"
+  },
+  {
+   "file": "p011.jpg",
+   "date": "2022-07-05",
+   "date_basis": "fecha Google (misma visita que p013)",
+   "kind": "tablero de pino Zumos y Licuados / Smoothies + tarros de infusiones",
+   "board_generation": "G2 tableros de pino"
+  },
+  {
+   "file": "p084.jpg / p163.jpg / p053.jpg",
+   "date": "2022-07-11",
+   "date_basis": "fecha impresa 11/07/22 (tique 070621) + comanda PEDIDO 11",
+   "kind": "tique de caja + comanda",
+   "board_generation": "—"
+  },
+  {
+   "file": "p097.jpg / p171.jpg",
+   "date": "2023-02-10",
+   "date_basis": "EXIF 2023:02:10 (consA) = Google p171; snippet del catálogo",
+   "kind": "tique con precios tapados",
+   "board_generation": "—"
+  },
+  {
+   "file": "p056.jpg",
+   "date": "2023-02-15",
+   "date_basis": "EXIF 2023:02:15",
+   "kind": "etiquetas de vitrina",
+   "board_generation": "etiquetas blancas con zigzag"
+  },
+  {
+   "file": "p119.jpg",
+   "date": "2023-04-30",
+   "date_basis": "EXIF 2023:04:30",
+   "kind": "etiquetas de vitrina + borde inferior de los tableros",
+   "board_generation": "G2 (último testimonio) + etiquetas zigzag"
+  },
+  {
+   "file": "p126.jpg",
+   "date": "2023-04-30",
+   "date_basis": "EXIF 2023:04:30",
+   "kind": "etiquetas de vitrina",
+   "board_generation": "etiquetas zigzag"
+  },
+  {
+   "file": "p151.jpg",
+   "date": "2023-04-30",
+   "date_basis": "fecha impresa 30/04/23 + pinpad",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p113.jpg",
+   "date": "2023-07-18",
+   "date_basis": "EXIF 2023:07:18 (consA); snippet del catálogo",
+   "kind": "pizarra de caballete exterior sin precios",
+   "board_generation": "—"
+  },
+  {
+   "file": "p026.jpg / p044.jpg / p046.jpg",
+   "date": "2023-08-07",
+   "date_basis": "EXIF 2023:08:07",
+   "kind": "etiquetas de vitrina",
+   "board_generation": "etiquetas zigzag"
+  },
+  {
+   "file": "p195.jpg",
+   "date": "2023-08-10",
+   "date_basis": "fecha Google",
+   "kind": "etiquetas de vitrina",
+   "board_generation": "etiquetas zigzag"
+  },
+  {
+   "file": "p149.jpg",
+   "date": "2023-10-11",
+   "date_basis": "EXIF DateTimeOriginal 2023:10:11 14:07:28 comprobado por el árbitro (B lo estimaba 2023-10/2024); misma visita que p158",
+   "kind": "pizarras negras impresas + etiquetas de vitrina",
+   "board_generation": "G3 pizarras negras impresas"
+  },
+  {
+   "file": "p158.jpg",
+   "date": "2023-10-11",
+   "date_basis": "EXIF 2023:10:11 14:07:25",
+   "kind": "etiquetas de vitrina + pizarras Desayunos/Menús",
+   "board_generation": "G3 + etiquetas zigzag"
+  },
+  {
+   "file": "p014.jpg / p104.jpg",
+   "date": "2024-01-20",
+   "date_basis": "EXIF 2024:01:20",
+   "kind": "etiquetas de vitrina",
+   "board_generation": "etiquetas zigzag"
+  },
+  {
+   "file": "p194.jpg / p196.jpg",
+   "date": "2024-02-06",
+   "date_basis": "fecha Google",
+   "kind": "etiquetas de vitrina",
+   "board_generation": "etiquetas zigzag"
+  },
+  {
+   "file": "p065.jpg",
+   "date": "2024-06-22",
+   "date_basis": "pinpad 22.6.2024 + comanda 22/06",
+   "kind": "tique de caja + comanda",
+   "board_generation": "—"
+  },
+  {
+   "file": "p147.jpg / p210.jpg",
+   "date": "2024-07-19",
+   "date_basis": "fecha impresa 19/07/24 (tique 087963)",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p153.jpg",
+   "date": "2024-11-14",
+   "date_basis": "fecha impresa 14/11/24",
+   "kind": "tique de caja",
+   "board_generation": "—"
+  },
+  {
+   "file": "p030.jpg",
+   "date": "2025-10-21",
+   "date_basis": "datáfono 21.10.2025",
+   "kind": "tique ilegible (solo total ≈7,90)",
+   "board_generation": "—"
+  },
+  {
+   "file": "p012.jpg",
+   "date": "2025-11-15",
+   "date_basis": "EXIF 2025:11:15 09:22:30 (comprobado)",
+   "kind": "pizarras negras impresas tras mampara, desenfocadas + tarjeta de turrones",
+   "board_generation": "G3 (vigentes)"
+  },
+  {
+   "file": "p166.jpg",
+   "date": "2025-11-15",
+   "date_basis": "EXIF 2025:11:15 09:20:18 (comprobado)",
+   "kind": "etiquetas de vitrina",
+   "board_generation": "etiquetas zigzag (vigentes)"
+  },
+  {
+   "file": "p072.jpg",
+   "date": "2025-11-15",
+   "date_basis": "EXIF 2025:11:15 (consA); snippet del catálogo",
+   "kind": "comanda sin precios",
+   "board_generation": "—"
+  },
+  {
+   "file": "p120.jpg",
+   "date": "sin fecha (2022-05…2023-04)",
+   "date_basis": "sin EXIF; precios iguales a p162",
+   "kind": "tableros de pino (parcial)",
+   "board_generation": "G2 tableros de pino"
+  }
+ ],
+ "board_generations": "There are three generations of wall menu, plus the vitrina tags. G1 (≤2019) is hand-chalked blackboards in light wooden frames, with prices written with an apostrophe (3'50€). It appears only in p135 (EXIF 2019-02-08): Desayunos + Meriendas, Menús ensaladas, and a salads board cut off at the edge. G2 (≈2021 to spring 2023) is pine boards with brown print, white arrow banners and prices on stickers or patches, with P/G columns for juices. There are five panels: Desayunos, Menús, Ensaladas, Tostas y Sándwich, and Zumos y Licuados + Smoothies. G2 appears in p112 (EXIF 2021-12-18), p162 (EXIF 2022-05-14, checked in the original), p013/p011 (2022-07), p120 (undated) and p119 (2023-04-30, bottom edge only). G3 (October 2023 to today) is black printed chalk-style boards with colour icons and yellow prices. Its five panels are Desayunos (hasta las 11:00h), Menús, Tostas y Sándwich, Ensaladas and Bebidas. G3 appears in p158/p149 (both EXIF 2023-10-11, the same visit) and p012 (EXIF 2025-11-15, out of focus behind a glass screen). The catalogue calls p012's boards 'antiguas', but EXIF shows G3 is the newest generation. The vitrina tags are white printed cards with a zigzag band in wooden blocks, using one template from 2023-02 (p056) to 2025-11 (p166). The till receipts (PANPAN / PANBER CAFE, S.L.) run from 2017 to 2025.",
+ "sections": [
+  {
+   "id": "desayunos",
+   "title_es": "Desayunos (hasta las 11:00 h)",
+   "note_es": "Por 0,20 € más, cambia la tostada por pan de espelta y nueces, pan de centeno o pan de masa madre. Consulta la carta para añadir distintos toppings a tu desayuno.",
+   "items": [
+    {
+     "id": "desayuno-mediterraneo",
+     "name_es": "Desayuno Mediterráneo",
+     "desc_es": "Café o té + zumo de naranja pequeño + 1/2 tostada (blanco / semillas) + tomate o mermelada y mantequilla",
+     "variants": [
+      {
+       "label_es": "Combo",
+       "price": 4,
+       "seen": "2023-10",
+       "source": "p158.jpg (y p149.jpg, misma visita)",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2017-06 3,50 € (p125 tique 'DESAYUNO MEDITERRANE')",
+      "2019-02 3,50 € (p135 pizarra de tiza, probable)",
+      "2021-12 3,50 € (p112 tablero de pino)",
+      "2022-05 3,80 € (p162)",
+      "2022-07 3,80 € (p013)",
+      "2023-10 4,00 € (p158/p149)",
+      "2025-11 sigue en la pizarra, precio ilegible (p012)"
+     ],
+     "first_seen": "2017-06",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "El precio de 2025 no se puede leer; 4,00 € es el último legible."
+    },
+    {
+     "id": "desayuno-healthy",
+     "name_es": "Desayuno Healthy",
+     "desc_es": "Café o té + zumo de naranja grande o licuado pequeño + tostada (blanco / semillas) + paleta ibérica o aguacate + tomate o mermelada y mantequilla + vaso de fruta",
+     "variants": [
+      {
+       "label_es": "Combo",
+       "price": 7.75,
+       "seen": "2023-10",
+       "source": "p158.jpg (y p149.jpg)",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2019-02 6,50 € (p135; entonces sin paleta ni aguacate)",
+      "2021-12 6,50 € (p112)",
+      "2022-05 6,75 € (p162)",
+      "2022-07 6,75 € (p013)",
+      "2023-10 7,75 € (p158/p149)",
+      "2025-11 precio ilegible (p012)"
+     ],
+     "first_seen": "2019-02",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "En 2019: tostada entera con tomate o mantequilla y mermelada + vaso de frutas."
+    },
+    {
+     "id": "suplemento-pan",
+     "name_es": "Cambio de pan",
+     "desc_es": "Por 0,20 € más, cambia la tostada por pan de espelta y nueces, pan de centeno o pan de masa madre",
+     "variants": [
+      {
+       "label_es": "Suplemento",
+       "price": 0.2,
+       "seen": "2025-11",
+       "source": "p012.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2021-12 0,20 € (p112)",
+      "2022-07 0,20 € (p013)",
+      "2023-04 0,20 € (p119)",
+      "2023-10 0,20 € (p149/p158)",
+      "2025-11 0,20 € (p012)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "tostada-integral",
+     "name_es": "Tostada integral",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Media (1/2)",
+       "price": 0.75,
+       "seen": "2024-06",
+       "source": "p065.jpg (tique '1/2 INTEGRAL')",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Entera",
+       "price": 1.5,
+       "seen": "2024-07",
+       "source": "p147.jpg / p210.jpg (tique 'TOSTADA INTEGRAL')",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-07 media 0,65 € (p084/p163)",
+      "2024-06 media 0,75 € (p065)",
+      "2024-07 entera 1,50 € (p147/p210)"
+     ],
+     "first_seen": "2022-07",
+     "last_seen": "2024-07",
+     "still_current": "probably",
+     "notes": "Solo aparece en los tiques."
+    },
+    {
+     "id": "topping-tomate",
+     "name_es": "Topping de tomate",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Topping",
+       "price": 0.5,
+       "seen": "2024-07",
+       "source": "p147.jpg / p210.jpg (tique)",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-07 0,50 € (p084/p163)",
+      "2024-06 0,50 € (p065)",
+      "2024-07 0,50 € (p147/p210)"
+     ],
+     "first_seen": "2022-07",
+     "last_seen": "2024-07",
+     "still_current": "probably",
+     "notes": "El aceite en monodosis no se cobra."
+    },
+    {
+     "id": "vaso-de-fruta",
+     "name_es": "Vaso de fruta",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Vaso",
+       "price": null,
+       "seen": "2022-07",
+       "source": "p084.jpg (comanda 'VASO DE FRUTA')",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2019-02–2025-11 incluido en el Desayuno Healthy",
+      "2022-07 suelto en comanda, sin precio (p084/p053)"
+     ],
+     "first_seen": "2019-02",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "También se ve en la vitrina en vasos con tapa (p149)."
+    },
+    {
+     "id": "merienda",
+     "name_es": "Merienda",
+     "desc_es": "Cacaolat o zumo + a elegir entre 2 bizcochitos mini, 2 cruasanes mini o 1 cookie",
+     "variants": [
+      {
+       "label_es": "Combo",
+       "price": 2.5,
+       "seen": "2019-02",
+       "source": "p135.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 2,50 € (p135 pizarra de tiza)"
+     ],
+     "first_seen": "2019-02",
+     "last_seen": "2019-02",
+     "still_current": "probably-not",
+     "notes": "Horario ilegible. No está en las pizarras G2 ni G3."
+    }
+   ]
+  },
+  {
+   "id": "menus",
+   "title_es": "Menús de mediodía",
+   "note_es": "Ensalada: escoge la que más te guste. Bebida: zumo de naranja pequeño, refresco, cerveza o agua. Tosta: de aguacate / salmón. *Café o té, excepto capuchino y café con leche grande.",
+   "items": [
+    {
+     "id": "menu-basico",
+     "name_es": "Menú Básico",
+     "desc_es": "Ensalada + bebida + café o té*",
+     "variants": [
+      {
+       "label_es": "Menú",
+       "price": 8.25,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 6,75 € (p135)",
+      "2021-12 6,75 € (p112)",
+      "2022-05 7,25 € (p162)",
+      "2023-10 8,25 € (p149)",
+      "2025-11 sin precio visible (p012)"
+     ],
+     "first_seen": "2019-02",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "menu-completo",
+     "name_es": "Menú Completo",
+     "desc_es": "Ensalada + tosta + bebida + café o té*",
+     "variants": [
+      {
+       "label_es": "Menú",
+       "price": 10.25,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 9,25 € (p135)",
+      "2021-12 9,25 € (p112)",
+      "2022-05 9,75 € (p162)",
+      "2023-10 10,25 € (p149)",
+      "2025-11 sin precio visible (p012)"
+     ],
+     "first_seen": "2019-02",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "suplemento-zumo-grande",
+     "name_es": "Zumo grande o licuado en el menú",
+     "desc_es": "Por 1 € más, haz tu zumo de naranja grande o cámbialo por un licuado pequeño",
+     "variants": [
+      {
+       "label_es": "Suplemento",
+       "price": 1,
+       "seen": "2023-04",
+       "source": "p119.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 1 € (p135)",
+      "2021-12 1 € (p112)",
+      "2022-07 1 € (p013)",
+      "2023-04 1 € (p119)"
+     ],
+     "first_seen": "2019-02",
+     "last_seen": "2023-04",
+     "still_current": "unknown",
+     "notes": "No se ve en las pizarras G3."
+    }
+   ]
+  },
+  {
+   "id": "ensaladas",
+   "title_es": "Ensaladas",
+   "note_es": "Estas seis ensaladas figuran en la pizarra vigente (11/2025), pero sus precios (todos 5,xx €) no se pueden leer. Se da el último precio legible, de mayo de 2022.",
+   "items": [
+    {
+     "id": "ensalada-fusilli",
+     "name_es": "Ensalada Fusilli",
+     "desc_es": "Pasta fusilli tricolor, aceitunas negras, anchoas, tomates cherry, mozzarella fresca y salsa pesto",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 4.75,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 4,25 € (p112)",
+      "2022-05 4,75 € (p162)",
+      "2025-11 5,xx € ilegible (p012; lectores 5,50/5,90)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Precio de 2022, desactualizado."
+    },
+    {
+     "id": "ensalada-cesar",
+     "name_es": "Ensalada César",
+     "desc_es": "Lechugas variadas, pollo braseado, picatostes, queso Grana Padano y salsa César",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 4.75,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 posible 'CÉ…' en la pizarra de tiza cortada (p135)",
+      "2021-12 4,25 € (p112)",
+      "2022-05 4,75 € (p162)",
+      "2025-11 5,xx € ilegible (p012; lectores 5,50/5,95)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Precio de 2022, desactualizado."
+    },
+    {
+     "id": "ensalada-otono",
+     "name_es": "Ensalada Otoño",
+     "desc_es": "Canónigos, manzana, nueces tostadas, cacahuetes caramelizados, tomate cherry, queso de cabra y crujiente de yuca",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 4.75,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 posible 'OT…' (p135)",
+      "2021-12 4,50 € (p112)",
+      "2022-05 4,75 € (p162)",
+      "2025-11 5,xx € ilegible (p012; lectores 5,75)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Precio de 2022, desactualizado."
+    },
+    {
+     "id": "ensalada-ventresca",
+     "name_es": "Ensalada Ventresca",
+     "desc_es": "Lechuga romana, cebolla morada, ventresca de atún, maíz dulce, espárragos, huevo duro, zanahoria rallada y tomate cherry",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 5.25,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 4,75 € (p112)",
+      "2022-05 5,25 € (p162)",
+      "2025-11 5,xx € ilegible (p012; lectores 5,95)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Precio de 2022, desactualizado."
+    },
+    {
+     "id": "ensalada-bahia",
+     "name_es": "Ensalada Bahía",
+     "desc_es": "Canónigos, pasta fusilli tricolor, salmón ahumado, tomate seco, aceitunas negras, queso feta y vinagreta de mostaza",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 4.95,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 posible 'BA…' (p135)",
+      "2021-12 4,75 € (p112)",
+      "2022-05 4,95 € (p162)",
+      "2025-11 5,xx € ilegible (p012; lectores 5,75)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "En p012 el nombre está borroso; tiene los mismos ingredientes que la «Ensalada Bahía» de los tableros de pino (p112, p162). Entre aceitunas negras y queso feta hay uno o dos ingredientes que no se leen."
+    },
+    {
+     "id": "ensalada-cobb",
+     "name_es": "Ensalada Cobb",
+     "desc_es": "Mezcla de lechugas y brotes, huevo duro, aguacate, tomate, pollo braseado, queso azul y salsa especial «ranchera»",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 4.95,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 posible 'CO…' (p135)",
+      "2021-12 4,75 € (p112)",
+      "2022-05 4,95 € (p162)",
+      "2025-11 5,xx € ilegible (p012; lectores 5,75)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "La casa escribe «Coob»; se corrige a Cobb."
+    },
+    {
+     "id": "ensalada-ambra",
+     "name_es": "Ensalada Ambra",
+     "desc_es": "Lechuga romana, queso de cabra, bacon frito, tomate cherry, dátiles, mix de frutos secos, nueces y vinagreta de frambuesa",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 5.25,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2019-02 posible 'AM…' (p135)",
+      "2021-12 4,50 € (p112)",
+      "2022-05 5,25 € (p162)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2022-05",
+     "still_current": "probably-not",
+     "notes": "No figura entre las seis ensaladas de 2025. El nombre podría ser 'Ambra' o 'Ambia'."
+    },
+    {
+     "id": "ensalada-quinoa",
+     "name_es": "Ensalada Quinoa",
+     "desc_es": "Quinoa, hummus … y sésamo",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 4.75,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 4,75 € (p112)",
+      "2022-05 4,75 € (p162)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2022-05",
+     "still_current": "probably-not",
+     "notes": "Ingredientes casi ilegibles. No está en la pizarra de 2025."
+    }
+   ]
+  },
+  {
+   "id": "tostas",
+   "title_es": "Tostas",
+   "note_es": "*Elige el pan para la tosta: de espelta y nueces, de centeno o de masa madre.",
+   "items": [
+    {
+     "id": "tosta-salmon",
+     "name_es": "Tosta de salmón",
+     "desc_es": "Mahonesa, mézclum, huevo duro, cebolla tierna, pepinillos en vinagre y salmón ahumado",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 4.75,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 3,50 € (p112)",
+      "2022-05 4,00 € (p162)",
+      "2023-10 4,75 € (p149)",
+      "2025-11 en la pizarra, precio ilegible (p012)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "tosta-aguacate",
+     "name_es": "Tosta de aguacate",
+     "desc_es": "Aguacate, tomate, cebolla morada, zumo de limón y aceite de oliva",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 4.25,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 3,50 € (p112)",
+      "2022-05 3,75 € (p162)",
+      "2023-10 4,25 € (p149)",
+      "2025-11 en la pizarra, precio ilegible (p012)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "tosta-hummus",
+     "name_es": "Tosta de hummus",
+     "desc_es": "Hummus con aceite de oliva, tomate seco y rúcula",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 3.25,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2020-02 comanda 'TOSTA DE HUM…' (p018)",
+      "2021-12 3,25 € (p112)",
+      "2022-05 3,25 € (p162)"
+     ],
+     "first_seen": "2020-02",
+     "last_seen": "2022-05",
+     "still_current": "probably-not",
+     "notes": "Ya no figura en la pizarra negra de 2023."
+    },
+    {
+     "id": "hummus",
+     "name_es": "Hummus",
+     "desc_es": "Garbanzos, tahini, aceite de oliva, ajo, comino, pimentón dulce, acompañado con rosquilletas",
+     "variants": [
+      {
+       "label_es": "Ración",
+       "price": 4.5,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2021-12 4,50 € (p112, 'acompañado con rosquilletas' legible)",
+      "2022-05 4,50 € (p162)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2022-05",
+     "still_current": "probably-not",
+     "notes": "No figura en la pizarra de 2023."
+    }
+   ]
+  },
+  {
+   "id": "sandwiches",
+   "title_es": "Sándwiches, bocadillos y focaccia",
+   "note_es": "Los sándwiches son los de la pizarra «Tostas y Sándwich»; los bocadillos solo aparecen en tiques.",
+   "items": [
+    {
+     "id": "sandwich-salmon",
+     "name_es": "Sándwich de salmón",
+     "desc_es": "Pan de molde de tritordeum, mahonesa, mézclum, cebolla tierna, huevo duro, pepinillos en vinagre y salmón ahumado",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 4.95,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 4,00 € (p112)",
+      "2022-05 4,50 € (p162)",
+      "2023-10 4,95 € (p149)",
+      "2025-11 en la pizarra, sin precio legible (p012)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "sandwich-ventresca",
+     "name_es": "Sándwich con ventresca",
+     "desc_es": "Pan de molde de tritordeum, mahonesa, lechuga romana, tomate, espárragos, aguacate, huevo duro y ventresca de atún",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 4.95,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 en el tablero, precio tapado (p112)",
+      "2022-05 4,95 € (p162)",
+      "2022-07 4,95 € (p011)",
+      "2023-10 5,xx € ilegible por reflejo (p149; lectores 5,50/5,25)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2023-10",
+     "still_current": "probably",
+     "notes": "Precio de 2022; en 2023 ya era de 5 € y pico."
+    },
+    {
+     "id": "sandwich-club",
+     "name_es": "Sándwich club",
+     "desc_es": "Pan de molde, mahonesa, lechuga, tomate, jamón York, queso Edam, pollo braseado y bacon",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 4.95,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2021-12 en el tablero (p112)",
+      "2022-05 4,95 € (p162)",
+      "2022-07 4,95 € (p011)",
+      "2023-10 5,xx € ilegible (p149; lectores 5,50)",
+      "2025-11 título probable en la pizarra (p012)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "probably",
+     "notes": "Precio de 2022, desactualizado."
+    },
+    {
+     "id": "sandwich-york-queso",
+     "name_es": "Sándwich de York y queso a la plancha",
+     "desc_es": "Pan de molde, jamón York y queso Edam",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 2.95,
+       "seen": "2022-05",
+       "source": "p162.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2022-05 2,95 € (p162)",
+      "2022-07 2,95 € (p011)",
+      "2023-10 nombre «de York y queso a la plancha» confirmado; precio ?,25 € ilegible (p149; lectores 3,25/4,25)",
+      "2025-11 título probable en la pizarra (p012)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "probably",
+     "notes": "Precio de 2022, desactualizado."
+    },
+    {
+     "id": "bocadillo-atun",
+     "name_es": "Bocadillo de atún y aceite",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 3,
+       "seen": "2022-06",
+       "source": "p165.jpg (tique 'BOC. ATÚN Y ACEIT')",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-06 3,00 € (p165)"
+     ],
+     "first_seen": "2022-06",
+     "last_seen": "2022-06",
+     "still_current": "unknown",
+     "notes": "En 2023 se ven bocadillos de barra de semillas sin etiqueta en la vitrina."
+    },
+    {
+     "id": "bocadillo-paleta",
+     "name_es": "Bocadillo de paleta",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 3.2,
+       "seen": "2022-06",
+       "source": "p165.jpg (tique 'BOC. DE PALETA')",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-06 3,20 € (p165)"
+     ],
+     "first_seen": "2022-06",
+     "last_seen": "2022-06",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "focaccia-jamon",
+     "name_es": "Focaccia de jamón",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 3.75,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2023-10 3,75 € (p149; posible 3,25)"
+     ],
+     "first_seen": "2023-10",
+     "last_seen": "2023-10",
+     "still_current": "unknown",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "id": "bolleria",
+   "title_es": "Bollería del obrador",
+   "note_es": "Precio por unidad, según las etiquetas de la vitrina y los tiques.",
+   "items": [
+    {
+     "id": "cruasan-mantequilla",
+     "name_es": "Cruasán de mantequilla",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.5,
+       "seen": "2025-11",
+       "source": "p166.jpg (recorte arb-p166-cru2.jpg)",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2023-04 1,40 € (p119)",
+      "2023-08 1,40 € (p026/p195)",
+      "2023-10 1,40 € (p158)",
+      "2024-01 1,40 € (p014)",
+      "2024-02 1,40 € (p194)",
+      "2024-11 1,40 € (p153 tique 'CRUASAN GRANDE')",
+      "2025-11 1,50 € (p166)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "En caja figura como «CRUASAN GRANDE»."
+    },
+    {
+     "id": "mini-cruasan-mantequilla",
+     "name_es": "Mini cruasán de mantequilla",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 0.65,
+       "seen": "2023-08",
+       "source": "p026.jpg / p195.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2023-02 tique 'CRUASAN MINI', precio tapado (p097/p171)",
+      "2023-04 0,65 € (p119)",
+      "2023-08 0,65 € (p026/p195)"
+     ],
+     "first_seen": "2023-02",
+     "last_seen": "2023-08",
+     "still_current": "unknown",
+     "notes": "Etiqueta «mini CROISSANT Mantequilla»."
+    },
+    {
+     "id": "mini-cruasan-chocolate",
+     "name_es": "Mini cruasán de chocolate",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 0.8,
+       "seen": "2025-11",
+       "source": "p166.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2018-03 0,65 € (p164 'CR. MINI CHOCOLA')",
+      "2019-03 comanda sin precio (p093/p169)",
+      "2021-11 0,70 € (p101/p177)",
+      "2023-04 0,75 € (p151, p119)",
+      "2023-10 0,75 € (p158)",
+      "2025-11 0,80 € (p166)"
+     ],
+     "first_seen": "2018-03",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Etiqueta «CRUASÁN CHOCO mini»."
+    },
+    {
+     "id": "mini-cruasan-almendra",
+     "name_es": "Mini cruasán de almendra",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.2,
+       "seen": "2024-06",
+       "source": "p065.jpg (tique 'MINI ALMENDRA')",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2023-04 1,00 € (p119/p126)",
+      "2023-08 1,00 € (p026/p195)",
+      "2023-10 1,00 € (p158, borrosa)",
+      "2024-06 1,20 € (p065)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2024-06",
+     "still_current": "probably",
+     "notes": ""
+    },
+    {
+     "id": "cruasan-almendra",
+     "name_es": "Cruasán de almendra",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.75,
+       "seen": "2023-10",
+       "source": "p158.jpg",
+       "confidence": "guess"
+      }
+     ],
+     "history": [
+      "2023-10 1,75 € (p158, a través de doble cristal; posible 1,70)"
+     ],
+     "first_seen": "2023-10",
+     "last_seen": "2023-10",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "ensaimada",
+     "name_es": "Ensaimada",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 0.95,
+       "seen": "2025-11",
+       "source": "p166.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2023-10 0,80 € (p158, posible 0,90)",
+      "2024-01 0,90 € (p014)",
+      "2024-02 0,90 € (p194)",
+      "2025-11 0,95 € (p166, '…AIMADA')"
+     ],
+     "first_seen": "2023-10",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "ensaimada-plus",
+     "name_es": "Ensaimada Plus",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 0.7,
+       "seen": "2023-04",
+       "source": "p119.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2023-04 0,70 € (p119)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2023-04",
+     "still_current": "unknown",
+     "notes": "La etiqueta está delante de una pieza alargada con almendra; puede que no correspondan."
+    },
+    {
+     "id": "panquemao",
+     "name_es": "Panquemao",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.4,
+       "seen": "2023-04",
+       "source": "p119.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2023-04 1,40 € (p119)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2023-04",
+     "still_current": "unknown",
+     "notes": "Grafía de la casa."
+    },
+    {
+     "id": "caracola-chocolate",
+     "name_es": "Caracola de chocolate",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.95,
+       "seen": "2023-04",
+       "source": "p119.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2022-06 1,95 € (p165 tique)",
+      "2023-04 1,95 € (p119)",
+      "2023-10 1,9? € (p158)"
+     ],
+     "first_seen": "2022-06",
+     "last_seen": "2023-10",
+     "still_current": "probably",
+     "notes": ""
+    },
+    {
+     "id": "palmera-chocolate",
+     "name_es": "Palmera de chocolate",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": null,
+       "seen": "2024-02",
+       "source": "p194.jpg / p014.jpg",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2024-01 1,?? € ilegible (p014)",
+      "2024-02 1,?0 € ilegible (p194)"
+     ],
+     "first_seen": "2024-01",
+     "last_seen": "2024-02",
+     "still_current": "probably",
+     "notes": "Nombre deducido de una etiqueta desenfocada."
+    },
+    {
+     "id": "panut",
+     "name_es": "Panut (dónut de la casa)",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Blanco",
+       "price": 0.95,
+       "seen": "2023-10",
+       "source": "p158.jpg",
+       "confidence": "probable"
+      },
+      {
+       "label_es": "Chocolate",
+       "price": 1,
+       "seen": "2023-10",
+       "source": "p149.jpg (etiqueta '…UT Chocolate 1€'; recorte arb-p149-tag.jpg)",
+       "confidence": "probable"
+      },
+      {
+       "label_es": "Colores",
+       "price": 1.4,
+       "seen": "2024-07",
+       "source": "p147.jpg / p210.jpg (tique 'PANUT COLORES')",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2023-04 Blanco 0,90 € (p119)",
+      "2023-04 Chocolate 0,95 € (p151 tique)",
+      "2023-08 Chocolate 1 €, Colores 1,35 € (p046)",
+      "2023-10 Blanco 0,95 €, Colores 1,35 € (p158); Chocolate 1 € (p149)",
+      "2024-07 Colores 1,40 € (p147/p210)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2024-07",
+     "still_current": "probably",
+     "notes": "En la vitrina de 2025 (p166) se ven dónuts glaseados sin etiqueta legible."
+    }
+   ]
+  },
+  {
+   "id": "salados",
+   "title_es": "Salados de la vitrina",
+   "note_es": "Empanadillas, porciones de pizza, quiche y bollería salada.",
+   "items": [
+    {
+     "id": "empanadillas",
+     "name_es": "Empanadillas",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Ternera",
+       "price": 2.2,
+       "seen": "2024-02",
+       "source": "p196.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Pollo",
+       "price": 2.2,
+       "seen": "2024-02",
+       "source": "p196.jpg",
+       "confidence": "probable"
+      },
+      {
+       "label_es": "Espinacas",
+       "price": 2,
+       "seen": "2024-02",
+       "source": "p196.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Pisto",
+       "price": 2,
+       "seen": "2023-10",
+       "source": "p149.jpg (recorte arb-p149-emp.jpg)",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2020-09 Pisto 1,70 € (p062 tique)",
+      "2023-02 Ternera 2,10, Pollo 2,10, Espinacas 1,95 € (p056)",
+      "2023-04 Ternera/Pollo 2,10 € (p119); Espinacas/Pisto 1,95 € (p126)",
+      "2023-08 Ternera/Pollo 2,20 € (p044)",
+      "2023-10 Ternera/Pollo 2,20, Espinacas 2 € (p158); Espinacas 2 €, Pisto 2 € (p149)",
+      "2024-01 Ternera/Pollo 2,20, Espinacas 2 € (p104)",
+      "2024-02 Ternera/Pollo 2,20, Espinacas 2 € (p196)"
+     ],
+     "first_seen": "2020-09",
+     "last_seen": "2024-02",
+     "still_current": "probably",
+     "notes": ""
+    },
+    {
+     "id": "pizza-porcion",
+     "name_es": "Pizza (porción)",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Peperoni",
+       "price": 2.85,
+       "seen": "2025-11",
+       "source": "p166.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Bacon y queso",
+       "price": 2.85,
+       "seen": "2025-11",
+       "source": "p166.jpg (recorte arb-p166-pz12.jpg)",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Jamón y queso",
+       "price": 2.75,
+       "seen": "2023-10",
+       "source": "p158.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Cuatro quesos",
+       "price": 2.75,
+       "seen": "2023-10",
+       "source": "p158.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Verduras",
+       "price": 2.75,
+       "seen": "2023-08",
+       "source": "p044.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2023-04 todas 2,75 € (p119/p126)",
+      "2023-08 2,75 € (p044)",
+      "2023-10 2,75 € (p158)",
+      "2025-11 Peperoni y Bacon y queso 2,85 € (p166); tercera etiqueta ilegible"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Probablemente todas cuestan 2,85 € desde 2025."
+    },
+    {
+     "id": "quiche-york-queso",
+     "name_es": "Quiche de York y queso",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.9,
+       "seen": "2024-07",
+       "source": "p147.jpg / p210.jpg (tique)",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2023-04 1,95 € (p126)",
+      "2024-07 1,90 € (p147/p210)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2024-07",
+     "still_current": "probably",
+     "notes": ""
+    },
+    {
+     "id": "cruasan-jamon-queso",
+     "name_es": "Cruasán de jamón y queso",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 2.75,
+       "seen": "2023-10",
+       "source": "p158.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2023-04 2,50 € (p119 'YORK Y QUESO Cruasán')",
+      "2023-08 2,75 € (p044)",
+      "2023-10 2,75 € (p158)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2023-10",
+     "still_current": "probably",
+     "notes": "Sigue en la vitrina en 2024-2025, sin etiqueta legible."
+    },
+    {
+     "id": "napolitana-jamon-queso",
+     "name_es": "Napolitana de jamón y queso",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.75,
+       "seen": "2023-10",
+       "source": "p158.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2023-08 1,75 € (p044)",
+      "2023-10 1,75 € (p158)"
+     ],
+     "first_seen": "2023-08",
+     "last_seen": "2023-10",
+     "still_current": "unknown",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "id": "dulces",
+   "title_es": "Dulces y tartas",
+   "note_es": "Solo los productos que aparecen con nombre escrito. En la vitrina refrigerada hay más tartas sin etiqueta legible.",
+   "items": [
+    {
+     "id": "cookie-chocolate",
+     "name_es": "Cookie de pepitas de chocolate",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": 1.5,
+       "seen": "2023-04",
+       "source": "p119.jpg / p126.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2019-02 en la Merienda (p135)",
+      "2023-04 1,50 € (p119/p126)"
+     ],
+     "first_seen": "2019-02",
+     "last_seen": "2023-04",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "eclair",
+     "name_es": "Éclair",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Chocolate",
+       "price": null,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "none"
+      },
+      {
+       "label_es": "Café",
+       "price": null,
+       "seen": "2023-10",
+       "source": "p149.jpg",
+       "confidence": "none"
+      },
+      {
+       "label_es": "Vainilla",
+       "price": null,
+       "seen": "2025-11",
+       "source": "p072.jpg (comanda '1 ECLAIR VAINI…')",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2017-11 'ECLAIR Café' (p052)",
+      "2023-08 en la vitrina, sin etiqueta (p046)",
+      "2023-10 etiquetas de chocolate y de café, precio ilegible (p149)",
+      "2025-11 vainilla en comanda (p072)"
+     ],
+     "first_seen": "2017-11",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "No se ha leído ningún precio."
+    },
+    {
+     "id": "san-marcos",
+     "name_es": "San Marcos",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad / porción",
+       "price": 2.95,
+       "seen": "2023-04",
+       "source": "p151.jpg (tique)",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2023-04 2,95 € (p151)"
+     ],
+     "first_seen": "2023-04",
+     "last_seen": "2023-04",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "coca-calabaza",
+     "name_es": "Coca de calabaza",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Porción",
+       "price": null,
+       "seen": "2020-02",
+       "source": "p058.jpg / p182.jpg (tique)",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2020-02 sin precio legible (p058/p182)"
+     ],
+     "first_seen": "2020-02",
+     "last_seen": "2020-02",
+     "still_current": "unknown",
+     "notes": "Nombre tomado del snippet del catálogo."
+    },
+    {
+     "id": "turrones",
+     "name_es": "Turrones",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Tableta",
+       "price": 9,
+       "seen": "2025-11",
+       "source": "p012.jpg (tarjeta de mostrador)",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2025-11 9,00 € (p012)"
+     ],
+     "first_seen": "2025-11",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Producto de Navidad de un proveedor externo."
+    }
+   ]
+  },
+  {
+   "id": "zumos",
+   "title_es": "Zumos, licuados y smoothies",
+   "note_es": "En el tablero de 2022, P es pequeño y G es grande. La pizarra de bebidas de 2023-2025 no se puede leer.",
+   "items": [
+    {
+     "id": "zumo-naranja",
+     "name_es": "Zumo de naranja",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Pequeño (P)",
+       "price": 1.9,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Grande (G)",
+       "price": 2.85,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Zumo de naranja (tique, sin tamaño)",
+       "price": 2.2,
+       "seen": "2024-11",
+       "source": "p153.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-07 P 1,90 € / G 2,85 € (p011)",
+      "2024-07 2,20 € (p147/p210)",
+      "2024-11 2,20 € (p153)",
+      "2025-11 sigue como bebida del menú (p012)"
+     ],
+     "first_seen": "2022-07",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "2,20 € es probablemente el pequeño actualizado; el tique no lo indica."
+    },
+    {
+     "id": "licuado-multivitaminico",
+     "name_es": "Licuado multivitamínico",
+     "desc_es": "Naranja, manzana, zanahoria, limón",
+     "variants": [
+      {
+       "label_es": "Pequeño (P)",
+       "price": 3,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Grande (G)",
+       "price": 4,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2020-09 3,80 € (p062 'MULTIV.', sin tamaño)",
+      "2022-07 P 3,00 / G 4,00 € (p011)"
+     ],
+     "first_seen": "2020-09",
+     "last_seen": "2022-07",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "licuado-digestivo",
+     "name_es": "Licuado digestivo",
+     "desc_es": "Piña y manzana",
+     "variants": [
+      {
+       "label_es": "Pequeño (P)",
+       "price": 3,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Grande (G)",
+       "price": 4,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-05 en el tablero (p162)",
+      "2022-07 P 3,00 / G 4,00 € (p011)"
+     ],
+     "first_seen": "2022-05",
+     "last_seen": "2022-07",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "licuado-antioxidante",
+     "name_es": "Licuado antioxidante",
+     "desc_es": "Espinaca, pepino, manzana, limón",
+     "variants": [
+      {
+       "label_es": "Pequeño (P)",
+       "price": 3,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Grande (G)",
+       "price": 4,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-07 P 3,00 / G 4,00 € (p011)"
+     ],
+     "first_seen": "2022-05",
+     "last_seen": "2022-07",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "licuado-refrescante",
+     "name_es": "Licuado refrescante",
+     "desc_es": "Manzana, limón y jengibre",
+     "variants": [
+      {
+       "label_es": "Pequeño (P)",
+       "price": 3,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Grande (G)",
+       "price": 4,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-07 P 3,00 / G 4,00 € (p011)"
+     ],
+     "first_seen": "2022-05",
+     "last_seen": "2022-07",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "smoothies",
+     "name_es": "Smoothies",
+     "desc_es": "Plátano y fresa · Melocotón, fresa y papaya · Pera y mango · Piña, mango y papaya · Manzana, frambuesa, mora y mango",
+     "variants": [
+      {
+       "label_es": "Todos a",
+       "price": 3.95,
+       "seen": "2022-07",
+       "source": "p011.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-05 mismos sabores (p162)",
+      "2022-07 3,95 € todos (p011)",
+      "2023-10 sección Smoothies en la pizarra negra, ilegible (p149)"
+     ],
+     "first_seen": "2022-05",
+     "last_seen": "2023-10",
+     "still_current": "probably",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "id": "cafes",
+   "title_es": "Cafés, cacao e infusiones",
+   "note_es": "Café Lavazza. Precios de los tiques, IVA incluido.",
+   "items": [
+    {
+     "id": "cafe-solo",
+     "name_es": "Café solo",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Taza",
+       "price": 1.2,
+       "seen": "2021-11",
+       "source": "p101.jpg / p177.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2021-11 1,20 € (p101/p177)"
+     ],
+     "first_seen": "2021-11",
+     "last_seen": "2021-11",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "cafe-americano",
+     "name_es": "Café americano",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Taza",
+       "price": 1.4,
+       "seen": "2022-07",
+       "source": "p084.jpg / p163.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-07 1,40 € (p084/p163)"
+     ],
+     "first_seen": "2022-07",
+     "last_seen": "2022-07",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "cortado",
+     "name_es": "Cortado",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Vaso",
+       "price": null,
+       "seen": "2023-02",
+       "source": "p097.jpg / p171.jpg",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2023-02 sin precio visible (p097/p171)"
+     ],
+     "first_seen": "2023-02",
+     "last_seen": "2023-02",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "cafe-con-leche",
+     "name_es": "Café con leche",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Normal",
+       "price": 1.75,
+       "seen": "2024-07",
+       "source": "p147.jpg / p210.jpg",
+       "confidence": "sure"
+      },
+      {
+       "label_es": "Grande",
+       "price": 1.9,
+       "seen": "2024-06",
+       "source": "p065.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2018-03 1,40 € (p164)",
+      "2024-06 grande 1,90 € (p065)",
+      "2024-07 1,75 € (p147/p210)"
+     ],
+     "first_seen": "2018-03",
+     "last_seen": "2024-07",
+     "still_current": "probably",
+     "notes": "El café con leche grande no entra en el café incluido en los menús."
+    },
+    {
+     "id": "capuchino",
+     "name_es": "Capuchino",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Taza",
+       "price": 2.25,
+       "seen": "2024-11",
+       "source": "p153.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-05 2,00 € (p071/p191)",
+      "2022-06 2,00 € (p165)",
+      "2023-04 2,25 € (p151)",
+      "2024-11 2,25 € (p153)",
+      "2025-11 en comanda (p072)"
+     ],
+     "first_seen": "2022-05",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": ""
+    },
+    {
+     "id": "cafe-bombon",
+     "name_es": "Café bombón",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Vaso",
+       "price": null,
+       "seen": "2019-03",
+       "source": "p093.jpg / p169.jpg",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2019-03 comanda sin precio"
+     ],
+     "first_seen": "2019-03",
+     "last_seen": "2019-03",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "colacao",
+     "name_es": "ColaCao",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Taza",
+       "price": null,
+       "seen": "2022-07",
+       "source": "p084.jpg (comanda)",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2022-07 comanda sin precio (p084)"
+     ],
+     "first_seen": "2022-07",
+     "last_seen": "2022-07",
+     "still_current": "unknown",
+     "notes": ""
+    },
+    {
+     "id": "infusiones",
+     "name_es": "Infusiones",
+     "desc_es": "Té moruno · Poleo · Manzanilla · Poleo menta",
+     "variants": [
+      {
+       "label_es": "Taza",
+       "price": null,
+       "seen": "2022-07",
+       "source": "p011.jpg (etiquetas de los tarros)",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2022-07 tarros etiquetados (p011)",
+      "2025-11 hay tarros en la balda y «café o té» sigue en desayunos y menús (p012)"
+     ],
+     "first_seen": "2022-07",
+     "last_seen": "2025-11",
+     "still_current": "probably",
+     "notes": ""
+    },
+    {
+     "id": "extras-cafe",
+     "name_es": "Extras del café (bebida de avena, descafeinado, corto, leche muy caliente)",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Sin cargo",
+       "price": 0,
+       "seen": "2024-07",
+       "source": "p147.jpg / p210.jpg",
+       "confidence": "sure"
+      }
+     ],
+     "history": [
+      "2022-05 avena 0,00 € (p071/p191)",
+      "2022-06 avena 0,00 € (p165)",
+      "2024-06 descafeinado, leche muy caliente 0,00 € (p065)",
+      "2024-07 descafeinado, corto 0,00 € (p147/p210)"
+     ],
+     "first_seen": "2022-05",
+     "last_seen": "2024-07",
+     "still_current": "probably",
+     "notes": ""
+    },
+    {
+     "id": "hielo",
+     "name_es": "Hielo",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Suplemento",
+       "price": 0.1,
+       "seen": "2024-07",
+       "source": "p147.jpg / p210.jpg",
+       "confidence": "probable"
+      }
+     ],
+     "history": [
+      "2024-07 0,10 € (p147/p210)"
+     ],
+     "first_seen": "2024-07",
+     "last_seen": "2024-07",
+     "still_current": "probably",
+     "notes": ""
+    }
+   ]
+  },
+  {
+   "id": "otros",
+   "title_es": "Otras bebidas",
+   "note_es": "Bebidas del menú: zumo de naranja pequeño, refresco, cerveza o agua.",
+   "items": [
+    {
+     "id": "agua",
+     "name_es": "Agua (botella)",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Botella",
+       "price": null,
+       "seen": "2022-07",
+       "source": "p084.jpg (comanda 'AGUA PLASTICO PE…')",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2022-07 comanda sin precio (p084)",
+      "2025-11 bebida del menú (p012)"
+     ],
+     "first_seen": "2022-07",
+     "last_seen": "2025-11",
+     "still_current": "probably",
+     "notes": ""
+    },
+    {
+     "id": "refresco-cerveza",
+     "name_es": "Refresco o cerveza",
+     "desc_es": "",
+     "variants": [
+      {
+       "label_es": "Unidad",
+       "price": null,
+       "seen": "2025-11",
+       "source": "p012.jpg (nota del menú)",
+       "confidence": "none"
+      }
+     ],
+     "history": [
+      "2021-12 bebida del menú (p112)",
+      "2023-10 bebida del menú (p149)",
+      "2025-11 bebida del menú (p012)"
+     ],
+     "first_seen": "2021-12",
+     "last_seen": "2025-11",
+     "still_current": "yes",
+     "notes": "Solo aparecen como bebida incluida en el menú."
+    }
+   ]
+  }
+ ],
+ "conflicts": [
+  "Salad prices in 2025 (p012, out of focus behind glass): I checked consA-p012-ens.jpg and made crops arb-p012-prL/prR.jpg from the 4000 px original. All six prices are 5,xx € and no digit after '5,' can be read, so the readers' 5,50/5,90/5,95/5,75 are not used. The menu shows the last legible price (p162, 2022-05), which is out of date.",
+  "p149 (2023-10) sandwich prices: the arb-p149-sandpr.jpg crop is unreadable because of lamp glare. Salmón 4,95 € (A and B, consistent with the consA crop) is kept as probable. Ventresca, club and York y queso keep their 2022 price, because the 2023 figures (5,50 / 5,50 / 3,25-4,25) are guesses. The name 'de York y queso a la plancha' is confirmed in consA-p149-tostas.jpg, so 'pavo' is ruled out.",
+  "The p149 tag 'Chocolate 1€' (arb-p149-tag.jpg): five letters, the last two 'UT'. Reader B's 'FRAUT' is not a product. It is taken as 'PANUT Chocolate', which matches p046 (PANUT Chocolate 1€, 2023-08). The first letters are still blurred, and the tray in front is empty.",
+  "Third pizza tag in p166 (2025-11): illegible even at 5× (arb-p166-pz3.jpg). Whether Jamón y queso, Cuatro quesos and Verduras went up to 2,85 € is not confirmed.",
+  "Zumo de naranja: the 2024 receipts give 'ZUMO NARANJA 2,20' without a size. On the 2022 board it was P 1,90 € / G 2,85 €.",
+  "Ensaimada 0,80 € in p158 (possibly 0,90). The 'ENSAIMADA Plus 0,70€' tag in p119 stands in front of an almond pastry and may not match it.",
+  "Quiche York y queso: 1,95 € on the 2023-04 tag vs 1,90 € on the 2024-07 receipt. Mini almond croissant: 1,00 € on tags vs 1,20 € on the receipt.",
+  "p135 (2019): the Desayunos hours read 12h (A) or 11h (B). The Merienda pastries and hours are uncertain. The salads board is cut off (CÉ…, OT…, AM/AN…, BA…, CO…); it may be the same salads, but this is not confirmed.",
+  "Menú Básico 2023-10: 8,25 € (a first digit of 6 is not ruled out). The 2025 Menús board shows no prices, so current menu and breakfast prices are unconfirmed.",
+  "Palmera de chocolate (p014/p194): the name and price are taken from an out-of-focus tag.",
+  "Items known only from catalogue snippets (COCA DE CALABAZA, BOMBON, CORTADO, ECLAIR VAINILLA): not re-read line by line.",
+  "Discarded: SaVia and kombucha (bottles seen on the counter, never priced as products); p100 and p030 (totals only)."
+ ]
+}

@@ -1,0 +1,1110 @@
+{
+ "name": "PanPan Atelier",
+ "address": "Gran Via del Marqués del Túria, 51, L'Eixample, 46004 València, Valencia",
+ "addressParts": [
+  "Gran Via del Marqués del Túria, 51",
+  "Ensanche",
+  "46004 València",
+  "Valencia"
+ ],
+ "coords": [
+  null,
+  null,
+  39.467463599999995,
+  -0.3685427
+ ],
+ "phone": "963 06 08 11",
+ "categories": [
+  "Cafetería"
+ ],
+ "rating": 4.3,
+ "reviews": 510,
+ "price": "1-10 €",
+ "priceBuckets": [
+  null,
+  null,
+  "1-10 €",
+  [
+   "https://search.google.com/local/reviews?placeid=ChIJdSj7gLZIYA0RNkPiXqzXUFo&q=PanPan+Atelier&authuser=0&hl=es&gl=ES",
+   "510 reseñas",
+   null,
+   "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ6W4IGigF"
+  ],
+  null,
+  null,
+  null,
+  4.3,
+  510,
+  [
+   [
+    [
+     [
+      "E:EUR_1_TO_10",
+      "1-10 €",
+      "De 1 € a 10 €"
+     ],
+     [
+      15,
+      0.7894736842105263,
+      1
+     ],
+     null,
+     null,
+     "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQhtMHCBcoAg"
+    ],
+    [
+     [
+      "E:EUR_10_TO_20",
+      "10-20 €",
+      "De 10 € a 20 €"
+     ],
+     [
+      2,
+      0.10526315789473684,
+      0
+     ],
+     null,
+     null,
+     "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQhtMHCBgoAw"
+    ],
+    [
+     [
+      "E:EUR_20_TO_30",
+      "20-30 €",
+      "De 20 € a 30 €"
+     ],
+     [
+      1,
+      0.05263157894736842,
+      0
+     ],
+     null,
+     null,
+     "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQhtMHCBkoBA"
+    ]
+   ],
+   "1-10 €",
+   "De 1 € a 10 €"
+  ],
+  "De 1 € a 10 €",
+  null,
+  null,
+  null,
+  1
+ ],
+ "website": null,
+ "description": null,
+ "plus": [
+  [
+   [
+    7,
+    [
+     [
+      "PanPan Atelier"
+     ],
+     [
+      "Gran Via del Marqués del Túria, 51"
+     ],
+     [
+      "Ensanche"
+     ],
+     [
+      "46004 València"
+     ],
+     [
+      "Valencia"
+     ]
+    ]
+   ],
+   [
+    2,
+    [
+     [
+      "PanPan Atelier, Gran Via del Marqués del Túria, 51, Ensanche, 46004 València, Valencia"
+     ]
+    ]
+   ],
+   [
+    1,
+    [
+     [
+      "Gran Via del Marqués del Túria, 51, L'Eixample, 46004 València, Valencia"
+     ]
+    ]
+   ],
+   [
+    4,
+    [
+     [
+      "València"
+     ]
+    ]
+   ]
+  ],
+  [
+   "Ensanche",
+   "Gran Via del Marqués del Túria, 51",
+   "Gran Via del Marqués del Túria, 51",
+   "València",
+   "46004",
+   "Valencia",
+   "ES"
+  ],
+  [
+   "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQqtMBCA8oDA",
+   [
+    "8CFXFJ8J+XH"
+   ],
+   [
+    "FJ8J+XH Valencia"
+   ],
+   3
+  ]
+ ],
+ "hist": [
+  30,
+  13,
+  36,
+  108,
+  323
+ ],
+ "hours": [
+  [
+   [
+    "viernes",
+    5,
+    [
+     2026,
+     9,
+     18
+    ],
+    [
+     [
+      "7:30–21:30",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        21,
+        30
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ],
+   [
+    "sábado",
+    6,
+    [
+     2026,
+     9,
+     19
+    ],
+    [
+     [
+      "7:30–14:00",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        14
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ],
+   [
+    "domingo",
+    7,
+    [
+     2026,
+     9,
+     20
+    ],
+    [
+     [
+      "7:30–14:00",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        14
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ],
+   [
+    "lunes",
+    1,
+    [
+     2026,
+     9,
+     21
+    ],
+    [
+     [
+      "7:30–21:30",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        21,
+        30
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ],
+   [
+    "martes",
+    2,
+    [
+     2026,
+     9,
+     22
+    ],
+    [
+     [
+      "7:30–21:30",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        21,
+        30
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ],
+   [
+    "miércoles",
+    3,
+    [
+     2026,
+     9,
+     23
+    ],
+    [
+     [
+      "7:30–21:30",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        21,
+        30
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ],
+   [
+    "jueves",
+    4,
+    [
+     2026,
+     9,
+     24
+    ],
+    [
+     [
+      "7:30–21:30",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        21,
+        30
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ]
+  ],
+  [
+   [
+    "viernes",
+    5,
+    [
+     2026,
+     9,
+     18
+    ],
+    [
+     [
+      "7:30–21:30",
+      [
+       [
+        7,
+        30
+       ],
+       [
+        21,
+        30
+       ]
+      ]
+     ]
+    ],
+    0,
+    1
+   ],
+   0,
+   1,
+   null,
+   [
+    "Abierto · Cierre: 21:30",
+    [
+     [
+      0,
+      7,
+      [
+       null,
+       [
+        4281040703,
+        4285388172
+       ]
+      ]
+     ]
+    ]
+   ],
+   [
+    "Abierto · Cierre: 21:30",
+    [
+     [
+      0,
+      7,
+      [
+       null,
+       [
+        4281040703,
+        4285388172
+       ]
+      ]
+     ]
+    ]
+   ],
+   null,
+   [
+    20,
+    30
+   ],
+   [
+    "Abierto",
+    [
+     [
+      0,
+      7,
+      [
+       null,
+       [
+        4281040703,
+        4285388172
+       ]
+      ]
+     ]
+    ]
+   ]
+  ],
+  5,
+  null,
+  null,
+  null,
+  1
+ ],
+ "hours34": null,
+ "attributes": [
+  null,
+  [
+   [
+    "service_options",
+    "Opciones de servicio",
+    [
+     [
+      "/geo/type/establishment_poi/has_takeout",
+      "Para llevar",
+      [
+       1,
+       [
+        [
+         1,
+         "Para llevar"
+        ]
+       ],
+       [
+        1,
+        "Para llevar",
+        "Para llevar",
+        "Se ofrece comida para llevar"
+       ]
+      ],
+      null,
+      [
+       1
+      ],
+      0
+     ],
+     [
+      "/geo/type/establishment_poi/serves_dine_in",
+      "Comer allí",
+      [
+       1,
+       [
+        [
+         1,
+         "Comer allí"
+        ]
+       ],
+       [
+        1,
+        "Comer allí",
+        "Comer allí",
+        "Se puede comer en el establecimiento"
+       ]
+      ],
+      null,
+      [
+       1
+      ],
+      0
+     ],
+     [
+      "/geo/type/establishment_poi/has_delivery",
+      "A domicilio",
+      [
+       1,
+       [
+        [
+         0,
+         "No hay entrega a domicilio"
+        ]
+       ],
+       [
+        0,
+        "No hay entrega a domicilio",
+        "A domicilio",
+        "No hay entrega a domicilio"
+       ]
+      ],
+      1,
+      [
+       2
+      ],
+      0
+     ]
+    ]
+   ],
+   [
+    "accessibility",
+    "Accesibilidad",
+    [
+     [
+      "/geo/type/establishment_poi/has_wheelchair_accessible_entrance",
+      "Acceso para sillas de ruedas",
+      [
+       1,
+       [
+        [
+         1,
+         "Acceso para sillas de ruedas"
+        ]
+       ],
+       [
+        1,
+        "Acceso para sillas de ruedas",
+        "Acceso para sillas de ruedas",
+        "Tiene acceso para sillas de ruedas"
+       ]
+      ],
+      null,
+      [
+       4
+      ],
+      0
+     ]
+    ]
+   ],
+   [
+    "payments",
+    "Pagos",
+    [
+     [
+      "/geo/type/establishment_poi/pay_mobile_nfc",
+      "Pagos con móvil vía NFC",
+      [
+       1,
+       [
+        [
+         1,
+         "Pagos con móvil vía NFC"
+        ]
+       ],
+       [
+        1,
+        "Pagos con móvil vía NFC",
+        "Pagos con móvil vía NFC",
+        "Se aceptan pagos con móvil vía NFC"
+       ]
+      ],
+      null,
+      [
+       57
+      ],
+      0
+     ],
+     [
+      "/geo/type/establishment_poi/pay_credit_card",
+      "Tarjetas de crédito",
+      [
+       1,
+       [
+        [
+         1,
+         "Tarjetas de crédito"
+        ]
+       ],
+       [
+        1,
+        "Tarjetas de crédito",
+        "Tarjetas de crédito",
+        "Se aceptan tarjetas de crédito"
+       ]
+      ],
+      null,
+      [
+       59
+      ],
+      0
+     ],
+     [
+      "/geo/type/establishment_poi/pay_debit_card",
+      "Tarjetas de débito",
+      [
+       1,
+       [
+        [
+         1,
+         "Tarjetas de débito"
+        ]
+       ],
+       [
+        1,
+        "Tarjetas de débito",
+        "Tarjetas de débito",
+        "Se aceptan tarjetas de débito"
+       ]
+      ],
+      null,
+      [
+       59
+      ],
+      0
+     ]
+    ]
+   ],
+   [
+    "parking",
+    "Aparcamiento",
+    [
+     [
+      "/geo/type/establishment_poi/has_parking_street_paid",
+      "Aparcamiento en la calle de pago",
+      [
+       1,
+       [
+        [
+         1,
+         "Aparcamiento en la calle de pago"
+        ]
+       ],
+       [
+        1,
+        "Aparcamiento en la calle de pago",
+        "Aparcamiento en la calle de pago",
+        "Aparcamiento en la calle de pago"
+       ]
+      ],
+      null,
+      [
+       1
+      ],
+      0
+     ],
+     [
+      "/geo/type/establishment_poi/has_parking_street_free",
+      "Aparcamiento en la calle gratuito",
+      [
+       1,
+       [
+        [
+         1,
+         "Aparcamiento en la calle gratuito"
+        ]
+       ],
+       [
+        1,
+        "Aparcamiento en la calle gratuito",
+        "Aparcamiento en la calle gratuito",
+        "Aparcamiento en la calle gratuito"
+       ]
+      ],
+      null,
+      [
+       1
+      ],
+      0
+     ]
+    ]
+   ]
+  ],
+  null,
+  [
+   [
+    "/geo/type/establishment_poi/serves_dine_in",
+    "Comer allí",
+    [
+     1,
+     [
+      [
+       1,
+       "Comer allí"
+      ]
+     ],
+     [
+      1,
+      "Comer allí",
+      "Comer allí",
+      "Se puede comer en el establecimiento"
+     ]
+    ],
+    null,
+    [
+     1
+    ],
+    0
+   ],
+   [
+    "/geo/type/establishment_poi/has_takeout",
+    "Para llevar",
+    [
+     1,
+     [
+      [
+       1,
+       "Para llevar"
+      ]
+     ],
+     [
+      1,
+      "Para llevar",
+      "Para llevar",
+      "Se ofrece comida para llevar"
+     ]
+    ],
+    null,
+    [
+     1
+    ],
+    0
+   ],
+   [
+    "/geo/type/establishment_poi/has_delivery",
+    "A domicilio",
+    [
+     1,
+     [
+      [
+       0,
+       "No hay entrega a domicilio"
+      ]
+     ],
+     [
+      0,
+      "No hay entrega a domicilio",
+      "A domicilio",
+      "No hay entrega a domicilio"
+     ]
+    ],
+    1,
+    [
+     2
+    ],
+    0
+   ]
+  ],
+  null,
+  [
+   [
+    "service_options",
+    "Opciones de servicio",
+    [
+     [
+      "/geo/type/establishment/has_no_contact_delivery",
+      "Entrega sin contacto",
+      [
+       1,
+       [
+        [
+         0,
+         ""
+        ]
+       ],
+       [
+        0
+       ]
+      ],
+      1,
+      [
+       2
+      ],
+      0
+     ]
+    ]
+   ],
+   [
+    "payments",
+    "Pagos",
+    [
+     [
+      "/geo/type/establishment_poi/pay_check",
+      "Cheques",
+      [
+       1,
+       [
+        [
+         0,
+         ""
+        ]
+       ],
+       [
+        0
+       ]
+      ],
+      1,
+      [
+       2
+      ],
+      0
+     ],
+     [
+      "/geo/type/establishment_poi/requires_cash_only",
+      "Solo se acepta efectivo",
+      [
+       1,
+       [
+        [
+         0,
+         ""
+        ]
+       ],
+       [
+        0
+       ]
+      ],
+      1,
+      [
+       2
+      ],
+      0
+     ]
+    ]
+   ]
+  ]
+ ],
+ "topics": [
+  [
+   [
+    [
+     "/m/01jwgf"
+    ],
+    "productos",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     29,
+     0,
+     29
+    ],
+    "CgsKCS9tLzAxandnZg==",
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECOYBKEw",
+    null,
+    null,
+    null,
+    [
+     [
+      3
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/015wgc"
+    ],
+    "croissant",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     16,
+     40,
+     42
+    ],
+    "CgsKCS9tLzAxNXdnYw==",
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECOcBKE0",
+    null,
+    null,
+    null,
+    [
+     [
+      3
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/02py09"
+    ],
+    "ambiente",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     14,
+     0,
+     14
+    ],
+    "CgsKCS9tLzAycHkwOQ==",
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECOgBKE4",
+    null,
+    null,
+    null,
+    [
+     [
+      3
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/0119x1zy"
+    ],
+    "bollería",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     11,
+     23,
+     25
+    ],
+    "Cg0KCy9tLzAxMTl4MXp5",
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECOkBKE8",
+    null,
+    null,
+    null,
+    [
+     [
+      3
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/0grw1"
+    ],
+    "ensaladas",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     11,
+     6,
+     16
+    ],
+    "CgoKCC9tLzBncncx",
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECOoBKFA",
+    null,
+    null,
+    null,
+    [
+     [
+      3
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/02wv6th"
+    ],
+    "panadería",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     11,
+     40,
+     34
+    ],
+    "CgwKCi9tLzAyd3Y2dGg=",
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECOsBKFE",
+    null,
+    null,
+    null,
+    [
+     [
+      2
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/080b05k"
+    ],
+    "bocadillos",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     7,
+     0,
+     9
+    ],
+    null,
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECOwBKFI",
+    null,
+    null,
+    null,
+    [
+     [
+      2
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/029d_m"
+    ],
+    "tostas",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     6,
+     0,
+     6
+    ],
+    null,
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECO0BKFM",
+    null,
+    null,
+    null,
+    [
+     [
+      2
+     ]
+    ]
+   ],
+   [
+    [
+     "/m/0663v"
+    ],
+    "pizza",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     5,
+     3,
+     7
+    ],
+    "CgoKCC9tLzA2NjN2",
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECO4BKFQ",
+    null,
+    null,
+    null,
+    [
+     [
+      3
+     ]
+    ]
+   ],
+   [
+    [
+     "/g/120qdpxk"
+    ],
+    "empleadas",
+    null,
+    [
+     null,
+     null,
+     null,
+     null,
+     5,
+     0,
+     5
+    ],
+    null,
+    "0ahUKEwiqodun1viWAxWbP_sDHTnECSMQ1bMECO8BKFU",
+    null,
+    null,
+    null,
+    [
+     [
+      2
+     ]
+    ]
+   ]
+  ]
+ ],
+ "menuLinks": null,
+ "reserve": null,
+ "order": null
+}
