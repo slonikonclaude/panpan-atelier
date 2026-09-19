@@ -48,7 +48,7 @@ const es = {
     lead: "Bollería del día, tostadas en el pan que elijas, ensaladas y zumo de naranja natural, en la Gran Vía desde hace más de diez años.",
     rating: (v: string, n: string) => `${v} de 5 · ${n} reseñas en Google`,
     hours: "Lun–vie 7:30–\u206021:00 · sáb 7:30–\u206014:00 · dom 8:30–\u206014:00",
-    from: (price: string) => `Desayunos desde ${price} (pizarra de 2023)`,
+    from: (price: string, year: string) => `Desayunos desde ${price} (pizarra de ${year})`,
     photoCaption: "La barra del ventanal, con la Gran Vía al otro lado del cristal.",
   },
 
@@ -239,7 +239,7 @@ const en: Dictionary = {
     lead: "The day’s pastries, toast on the bread of your choice, salads and fresh orange juice, on the Gran Vía for more than ten years.",
     rating: (v: string, n: string) => `${v} out of 5 · ${n} Google reviews`,
     hours: "Mon–Fri 7:30–\u206021:00 · Sat 7:30–\u206014:00 · Sun 8:30–\u206014:00",
-    from: (price: string) => `Breakfast from ${price} (2023 board)`,
+    from: (price: string, year: string) => `Breakfast from ${price} (${year} board)`,
     photoCaption: "The window counter, with the Gran Vía on the other side of the glass.",
   },
 

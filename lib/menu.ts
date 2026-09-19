@@ -71,8 +71,9 @@ export const breakfastNotes: T[] = [
   ),
 ];
 
-/** Самая дешёвая комбинация — для hero. */
-export const breakfastFrom = Math.min(...breakfasts.map((b) => b.price ?? Infinity));
+/** Самая дешёвая комбинация и год, когда её цену видели, — для hero. */
+const cheapest = breakfasts.filter((b) => b.price !== null).sort((a, b) => a.price! - b.price!)[0];
+export const breakfastFrom = { price: cheapest.price!, year: cheapest.seen.slice(0, 4) };
 
 /* ───────────────────────── La carta ───────────────────────── */
 
@@ -360,8 +361,8 @@ export const menuSections: MenuSection[] = [
     seen: "2024-11",
     source: t("tiques", "receipts"),
     note: t(
-      "Café Lavazza. El descafeinado no se cobra aparte (tiques de 2024); la bebida de avena tampoco, en los tiques de 2022.",
-      "Lavazza coffee. Decaf costs nothing extra (2024 receipts); nor did oat drink on the 2022 receipts.",
+      "Café Lavazza, también con bebida de avena. El descafeinado no se cobra aparte (tiques de 2024).",
+      "Lavazza coffee, also made with oat drink. Decaf costs nothing extra (2024 receipts).",
     ),
     items: [
       {

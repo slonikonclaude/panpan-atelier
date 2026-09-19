@@ -75,7 +75,7 @@ export function Hero({ locale }: { locale: Locale }) {
               <dt className="sr-only">{dict.nav.breakfast}</dt>
               <dd className="tabular flex items-center gap-2.5">
                 <span aria-hidden="true" className="ml-0.5 inline-block h-3.5 w-3.5 rounded-full border-2 border-crust" />
-                {h.from(formatPrice(breakfastFrom, locale))}
+                {h.from(formatPrice(breakfastFrom.price, locale), breakfastFrom.year)}
               </dd>
             </div>
           </dl>
